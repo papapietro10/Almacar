@@ -1,0 +1,893 @@
+*{
+margin: 0;
+padding: 0;
+
+}
+/*INICIO.HTML*/
+/*FONDO*/
+/*BARRA DE INICIO*/
+header{
+width: 100%;
+}
+.nav-main{
+background-color: #1800D8;
+display: flex;
+justify-content: space-evenly; 
+align-items:center;
+}
+.nav-main >a{
+color: #fff;
+font-size: 100%;
+background-color: #1800D8;
+text-decoration: none;
+font-family: 'Cormorant', serif;  
+text-shadow: 0px 0px 5px #000000;
+text-decoration: none;
+}
+nav > a:hover{
+text-decoration: underline;
+}
+/*LOGO DE INICIO*/
+.header-logo{
+width: 4%;
+height: auto;
+}
+/*TITULO Y SUBTITULO*/
+.fondo{
+background-image: url(../image/Fondo-inicio.jpg.jpg);
+box-shadow: 0px 10px 30px #00000069;
+background-size: 100% 100%; 
+}
+.titulo{
+height: 20em;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.titulo h1{
+color:#fff;
+font-size: 5em;
+font-family: 'Cormorant', serif;
+text-shadow: 0px 0px 10px #000000;
+letter-spacing: 0.5em;
+}
+.subtitulo{
+height: 4em;
+display: flex;
+justify-content:center;
+align-items: center;
+background-color: #1900d87b;
+box-shadow: 0px 0px 55px #000000;
+}
+.subtitulo p{
+color:#fff;
+font-size: 1.5em;
+font-family: 'Cormorant', serif;
+text-shadow: 0px 0px 3px #ffffff;
+letter-spacing: 0.2em;
+}
+/*AZULES*/
+.azul-inicio{
+height: 22em;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+}
+.azul-inicio img{
+box-shadow: 0px 0px 40px #000000;
+width: 11%;
+height: auto;
+border-radius: 100%;
+}
+/*barra*/
+.barra-inicio hr{
+border-color:blue ;
+height: 0.5em;
+background-image: linear-gradient(to left,  #1400b0, #a195ffb1, rgb(255, 255, 255));
+box-shadow:0px 0px 10px #1800D8;
+}
+/* IMAGEN Y FORMULARIO */
+.global_form_container{
+width: 100%;
+height: 50em;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+
+}
+.global_form_container img{
+width: 35%;
+border-radius: 1%;
+box-shadow: 0px 0px 10px #000000;
+}
+.form_container{
+width: 40%;
+height: 40em;
+display: flex;
+flex-direction: column;
+align-items: center;
+border: solid #1800D8;
+border-radius: 1%;
+box-shadow: 0px 0px 3px #1800D8;
+}
+
+.titulo-form h2{ 
+height: 2em;
+display:flex ;
+align-items: center;
+font-size: 500%;
+font-family: 'Cormorant', serif;
+color: #1800D8
+
+}
+.nuestros-agentes{
+background-color: #1800d8;
+width: 100%;
+}
+.nuestros-agentes p{
+height: 4em;
+font-size: 100%;
+font-family: 'Cormorant', serif;
+color: #fff;
+text-align: center;
+display: flex;
+align-items: center;
+}
+.dejanos-form h3{
+height: 2em;
+font-size: 200%;
+font-family: 'Cormorant', serif;
+color: #1800D8;
+display: flex;
+align-items: center;
+}
+form{
+width: 100%;
+height: 20em;
+display: flex;
+flex-direction:column;
+align-items: center;
+}
+form label{
+width: 50%;
+height: 30%;
+font-family: 'Cormorant', serif;
+color: #1800D8;
+font-size: 150%;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 2%;
+}
+form input{
+box-shadow: 0px 0px 3px #1800D8;
+border-color: #1800D8;
+width: 40%;
+font-family: 'Cormorant', serif;
+font-size: 100%;
+}
+.envie-su-mensaje-inicio{   
+height: 100em;
+font-family: 'Cormorant', serif;
+border-radius: 2%;
+text-align: center;
+border-color: #1800D8;
+box-shadow: 0px 0px 3px #1800D8;
+margin-top: 1%;
+}
+.enviar_mensaje_inicio{ 
+background-color: #1800D8;
+color: #ffff;
+font-size: 1em;
+width: 25%;
+border-radius: 4px;
+box-shadow: 0px 0px 5px #1800D8;
+margin-top: 3%;
+}
+/*FOOTER*/
+.footer-foo{ 
+background-color: #1800D8;
+box-shadow: 1px 5px 20px #1800D8;
+display: flex;
+justify-content: space-evenly; 
+align-items:center;
+width: 100%;
+height: auto;
+margin-top: 7%;
+font-family: 'Cormorant', serif;
+font-size: 100%;
+color: #fff;
+}
+
+footer img{
+width: 4%;
+height: auto;
+margin-right: 4%;
+margin-top: 0.5% ;
+}
+
+/*FULL RESPONSIVE PARA MOBILE*/
+@media (max-width:390px) {
+.nav-main{
+flex-direction: column;
+align-items: center;
+justify-content: space-evenly;
+line-height: 1.5em;
+}
+.nav-main img{
+    width: 15%;
+}
+.titulo{
+justify-content: center;
+align-items: center;
+font-size: 33%;
+height: 30em;
+flex-wrap: wrap;
+}
+.subtitulo{
+font-size: 40%;
+width: 100%;
+text-align: center;
+}
+.azul-inicio{
+height: 10em;
+}
+.azul-inicio img{
+width: 20%;
+}
+.barra-inicio{
+width: 100%;
+}
+.global_form_container{
+flex-direction: column;
+justify-content: space-evenly;
+align-items: center;
+height: 70em;
+}
+.global_form_container img{
+width: 55%;
+}
+.form_container{
+width: 89%;
+height: 40em;
+}
+.titulo-form h2{
+justify-content: center;
+align-items: center;
+font-size: 300%;
+}
+.nuestros-agentes p{
+font-size: 90%;
+}
+
+form {
+height: 50%;
+}
+.footer-foo{
+height: 20em;
+margin-top: 80px;
+justify-content: space-evenly;
+flex-direction: column;
+}
+.footer-foo img{
+width: 40%;
+}
+.footer-foo p{
+font-size: 100%;
+flex-wrap: wrap;
+}
+.telefono-form{
+font-size: 0%;
+}
+}
+
+
+
+/*---------------------QUIENES SOMSOS---------------------*/
+/*TILO QUIENES+ POSICIONAMIENTO*/
+
+/*QUINES SOMOS PRIMERAPARTE*/
+
+.section_grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 30em 1fr ;
+    grid-template-areas: 
+    "area2  area1"
+    "area3 area4"
+    "area6 area5"
+    "area7 area8"
+    "area10 area9"
+    "area11 area12";
+}
+.logo_quienes_titulo{
+    grid-area: area1; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo-quienes{
+    width: 55%;
+    position: relative;
+    top: 3%;
+    right: 6%;
+}
+.titulo_quienes {
+    grid-area: area2;
+}
+.titulo-quienes{
+    font-size: 6.3em;
+    font-family:'Cormorant', serif; 
+   color: #1800D8;
+   text-align: center;
+   position: relative;
+   top: 50%;
+}
+.imagen__muelle {
+    grid-area: area3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imagen-muelle{
+    width: 70%;
+    border-radius: 2%;
+    margin-left: 0;
+}
+.texto-uno-quienes{
+    grid-area: area4;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.texto-uno-quienes p{
+    color: #1800D8;
+    font-size: 1.6em;
+    padding: 0px 0px 12%;
+    margin-right: 20%;
+    letter-spacing: 5px;
+    font-family:'Cormorant', serif; 
+}
+.azules-iconos {
+    grid-area: area5;
+}
+.azules-quienes {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 10%;
+    height: auto;
+    width: 45%;
+    border-radius: 100%;
+}
+/*QUIENES SOMOS SEGUNDA PARTE*/
+.texto-dos-quienes{
+    grid-area: area6;
+}
+.texto-dos-quienes p{
+    color: #1800D8;
+    font-size: 150%;
+    letter-spacing: 5px;
+    font-family:'Cormorant', serif; 
+    margin-top: 10%;
+    padding:0% 15% 0%;
+}
+.empleado-dos{
+width: 70%;
+margin-top: 10%;
+box-shadow:0px 0px 10px #000000;
+border-radius: 20px;
+position: relative;
+left: 1%;
+}
+/*NUESTRA MISION Y VISION*/
+/*LOGO Y NUESTRA MISION TITULO / TEXTO*/
+/*MISION*/
+.logo_mision{
+grid-area: area7;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.logo-mision{
+width: 55%;   
+}
+.titulo-mision{
+grid-area: area8;
+display: flex;
+align-items: center;
+margin-top: 10%;
+font-size: 6.3em;
+font-family: 'Cormorant', serif;
+color: #1800D8;
+text-shadow:0px 0px 5px #ffffff;
+}
+.texto-mision{
+grid-area: area9;
+color: #1800D8;
+font-size: 150%;
+letter-spacing: 5px;
+font-family:'Cormorant', serif; 
+padding:0% 15% 0%;
+}
+/*VISION*/
+.titulo-vision{
+grid-area: area10;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 6.3em;
+font-family: 'Cormorant', serif;
+color: #1800D8;
+text-shadow:0px 0px 5px #ffffff;
+}
+.nuestra-vision{
+grid-area: area11;
+color: #1800D8;
+font-size: 150%;
+letter-spacing: 5px;
+font-family:'Cormorant', serif; 
+padding:0% 15% 0%;
+height: 130%;
+} 
+.imagen_vision{
+grid-area: area12;
+display: flex;
+justify-content: center;
+align-items: flex-end;
+}
+.imagen-vision{
+width: 80%;
+box-shadow: 0px 0px 10px #000000;
+border-radius: 20px;
+}
+@media (max-width: 390px){
+    .section_grid{
+        display: flex;
+        flex-direction: column;
+    }
+    .logo_quienes_titulo{
+        margin-left:15% ;
+    }
+    .titulo_quienes{
+        font-size: 55%;
+    }
+.imagen-muelle{
+    width: 50%;
+    margin-top: 10%;
+}
+.texto-uno-quienes{
+    text-align:justify;
+    font-size: 64%;
+    margin-left: 18%;
+    margin-top: 20%;
+}
+.azules-quienes{
+    margin-left: 21%;
+    margin-top: 1%;
+    width: 47%;
+}
+.empleado-dos{
+    margin-left: 19%;
+    margin-top: 15%;
+    width: 60%;
+}
+.texto-dos-quienes{
+    text-align:justify;
+    font-size: 64%;
+    margin-left: 1%;
+    margin-top: 1%;
+}
+.logo_mision{
+    margin-left: 5%;
+    margin-top: 15%;
+}
+.titulo-mision{
+    font-size: 4em;
+    text-align: center;
+}
+.texto-mision{
+    text-align:justify;
+    font-size: 100%;
+    margin-left: 1%;
+    margin-top: 10%;
+}
+.titulo-vision{
+    font-size: 4em;
+    text-align: center;
+    margin-top: 10% ;
+}
+.nuestra-vision{
+    text-align:justify;
+    font-size: 100%;
+    margin-left: 1%;
+    margin-top: 10%;
+}
+.imagen_vision{
+    margin-top: 15%;
+}
+}
+/*---------------------ASESORAMIENTO ADUANERO---------------------*/
+
+.contenedor-grid-aseso{
+display: grid;
+grid-template-columns: 1fr 0.4fr;
+grid-template-rows: 50em;
+grid-template-areas:
+"area1 area2" ;
+}
+
+.inicio-consultoria{
+    grid-area: area1;
+    height: 50em;
+    display: flex;
+    flex-direction: column;
+}
+.inicio-consultoria h1{
+    font-size: 8em;
+    font-family: 'Cormorant', serif;
+    color: #1800D8;
+    padding-top: 10%;
+    text-align: center;
+}
+.inicio-consultoria p{
+    font-size: 1.5em;
+    text-align: justify ;
+    margin-left: 20%;
+    margin-right: 20% ;
+    padding-top: 5%;
+    color: #1800D8;
+}
+.imagen_consultoria{
+grid-area: area2;
+display: flex;
+justify-content: center;
+align-items: center;
+background-repeat: repeat;
+}
+.imagen-consultoria{
+    width: 80%;
+    border-radius: 2%;
+    box-shadow:0px 0px 5px #000000;
+}
+/*
+.titulo_consultoria{
+grid-area: area1;
+display: flex;
+align-items: center;
+}
+.titulo-consultoria{
+font-family: 'Cormorant', serif;
+font-size: 120px;
+color: #1800D8;
+text-shadow:0px 0px 10px #ffff;
+text-align: left;
+margin-left: 50px;
+}
+.texto_consultoria{
+grid-area: area3;
+height: 500px;
+display: flex;
+justify-content: center;
+margin-left: 100px;
+margin-right: 100px;
+}
+.texto-consultoria{
+font-family: 'Cormorant', serif;
+font-size: 30px;
+text-align: left;
+letter-spacing: 2px;
+line-height: 50px;
+letter-spacing: 2px;
+position: relative;
+bottom: 60px;
+}
+.imagen_consultoria{
+align-items: center;
+}
+.imagen-consultoria{
+width: 400px;
+height: 700px;
+border-radius: 10px;
+box-shadow:0px 0px 10px #000000;
+}
+*/
+/*segunda parte consultoria*/
+
+.contenedor-experimentados{
+
+}
+.imagen_consultores{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.imagen-consultores{
+width: 500px;
+border-radius: 10px;
+box-shadow: 0px 0px 10px #000000;
+margin-top: 100px;
+margin-left: 50px;
+}
+.titulo_experimentados{
+grid-column: 2/5;
+display: flex;
+align-items: center;
+}
+.titulo-experimentados{
+font-family: 'Cormorant', serif;
+font-size: 120px;
+color: #1800D8;
+text-shadow: 0px 0px 10px #ffff;
+text-align: center;
+}
+.texto_experimentados{
+grid-column: 2/4;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+.texto-experimentados{
+font-size: 20px;
+font-family: 'Cormorant', serif;
+margin-left: 20px;
+margin-right: 50px; 
+line-height: 40px;
+letter-spacing: 2px;
+margin-left: 80px;
+margin-left: 80px;
+}
+.espacio-experimentados{
+font-size: 20px;
+font-family: 'Cormorant', serif;
+margin-left: 20px;
+margin-right: 50px;
+line-height: 40px;
+letter-spacing: 2px;
+margin-top: 20px;
+margin-left: 80px;
+margin-left: 80px;
+}
+
+/* AZULES ASESORAMIENTO*/
+.azules_asesoramiento{
+display:flex;
+justify-content: space-evenly;
+align-items: center;
+}
+.azules-asesoramiento{
+width: 170px;
+border-radius: 100%;
+box-shadow:0px 0px 20px #8c8c8c;
+position: relative;
+left: 30px;
+}
+
+/* TERCERA PARTE COSULTORIA*/
+
+.barra-asesoramiento{
+margin-left: 70px;
+margin-right: 70px;
+height: 10px;
+background-image: linear-gradient(to left,  #1800D8, #1900d8b1, rgba(255, 255, 255, 0.26));
+border-radius: 40px;
+}
+.titulo_servicios{
+display:flex;
+justify-content: center;
+align-items: flex-end;
+height: 150px;
+}
+.titulo-servicos{
+font-family: 'Cormorant', serif;
+font-size: 67px;
+color: #1800D8;
+text-shadow: #ffffff;
+}
+.puntos_servicios{
+display:flex;
+flex-direction: column;
+justify-content: space-evenly;
+height: 550px;
+}
+.puntos-servicio{
+letter-spacing: 3px;
+font-size: 20px;
+font-family: 'Cormorant', serif;
+margin-left: 200px;
+}
+
+/*FORMULARIO ASESORAMIENTO*/
+
+
+
+.formulario_asesoramiento{
+width:550px;
+height: 610px;
+margin-left: 430px;
+border-radius: 4px;
+border: solid #1800D8;
+box-shadow:0px 0px 4px #1900d855;
+background: #ffffff8e;
+}
+.titulo-form-asesoramiento{
+height: 80px;
+display:flex;
+justify-content: center;
+align-items: center;
+}
+/*
+.logo-fomulario-asesoramiento{
+width: 150px;
+}*/
+.titulo-formulario-asesoramiento{
+color:  #1800D8;
+font-size: 50px;
+font-family: 'Cormorant', serif;
+letter-spacing: 15px;
+margin-top: 20px;
+
+}  
+
+.subtitulo_form-asesoramiento{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 70px;
+
+}
+.subtitulo-form-asesoramiento{
+color: #1800D8;
+font-family: 'Cormorant', serif;
+font-size: 20px;
+text-align: center;
+margin-left: 50px;
+margin-right: 50px;
+}
+.dejanos_consulta_asesoramiento{
+height:50px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.dejanos-su-consulta-asesoramiento{
+color: #1800D8;
+font-family: 'Cormorant', serif;
+font-size: 30px;
+}
+/* DATOS FORMULARIO*/
+.datos-form-asesoramiento{
+display: flex;
+flex-direction: column;
+justify-content:space-evenly ;
+background-color: #91919148;
+width: 300px;
+height: 350px;
+margin-left: 130px;
+margin-top: 20px;
+border-radius: 4px;
+
+}
+.nombre-form-asesoramiento{
+color: #1800D8;
+display: flex;
+margin-left: 30px;
+font-size: 20px;
+}
+.nombre_form-asesoramiento{
+width: 100px;
+margin-left: 30px;
+border-color: #1800D8;
+height: 30px;
+font-family: 'Cormorant', serif;
+border-radius: 4px;
+text-align: center;
+letter-spacing: 2px;
+}
+.telefono-form-asesoramiento{
+color: #1800D8;
+display: flex;
+margin-left: 30px;
+font-size: 20px;
+}
+.telefono_form-asesoramiento{
+width: 100px;
+margin-left: 30px;
+border-color: #1800D8;
+height: 30px;
+font-family: 'Cormorant', serif;
+border-radius: 4px;
+text-align: center;
+letter-spacing: 2px;
+}
+.email-form-asesoramiento{
+color: #1800D8;
+display: flex;
+margin-left: 30px;
+font-size: 20px;
+}
+.email_form-asesoramiento{
+width: 180px;
+margin-left: 30px;
+border-color: #1800D8;
+height: 30px;
+font-family: 'Cormorant', serif;
+border-radius: 4px;
+text-align: center;
+letter-spacing: 2px;
+}
+.deje-form-asesoramiento{
+color: #1800D8;
+display: flex;
+margin-left: 30px;
+font-size: 20px;
+}
+.envie-su-mensaje-asesoramiento{
+width: 180px;
+margin-left: 30px;
+border-color: #1800D8;
+height: 50px;
+font-family: 'Cormorant', serif;
+border-radius: 4px;
+text-align: center;
+letter-spacing: 2px;
+}
+.enviar_mensaje-asesoramiento{
+background-color: #1800D8;
+color: #ffff;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-left: 30px;
+font-size: 20px;
+width: 180px;
+border-radius: 4px;
+border: solid #fff;
+box-shadow: 0px 0px 5px #000000;
+}
+
+/*----------------- NUESTRO SERVICIO----------------------*/
+@media (max-width: 390px){
+    .inicio-consultoria{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+   
+    .inicio-consultoria h1{
+        font-size: 240%;
+        text-align: center;
+        margin-left: 40%;
+        width: 100%;
+       margin-bottom: 10em;
+    }
+    .inicio-consultoria p{
+        font-size: 100%;
+        margin-left: 64%;
+        width: 100%;
+        margin-bottom: 10em;
+        
+    }
+    .contenedor-grid-aseso{
+        display: grid;
+        grid-template-columns: 1fr 0.4fr;
+        grid-template-rows: 55%;
+        grid-template-areas:
+        "area1"
+        "area2"
+        "area3" ;
+        }
+        .imagen_consultoria{
+        width: 100%;
+
+        }
+    .imagen-consultoria{
+        margin-left: 40%;
+
+    }
+        
+}
