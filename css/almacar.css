@@ -207,7 +207,7 @@ margin-top: 0.5% ;
 }
 
 /*FULL RESPONSIVE PARA MOBILE*/
-@media (max-width:390px) {
+@media (max-width:350px) {
 .nav-main{
 flex-direction: column;
 align-items: center;
@@ -442,7 +442,7 @@ width: 80%;
 box-shadow: 0px 0px 10px #000000;
 border-radius: 20px;
 }
-@media (max-width: 390px){
+@media (max-width: 350px){
     .section_grid{
         display: flex;
         flex-direction: column;
@@ -847,7 +847,7 @@ box-shadow: 0px 0px 5px #000000;
 }
 
 /*----------------- NUESTRO SERVICIO----------------------*/
-@media (max-width: 390px){
+@media (max-width: 350px){
     .inicio-consultoria{
         display: flex;
         flex-direction: column;
