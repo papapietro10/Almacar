@@ -49,7 +49,9 @@ font-size: 5em;
 font-family: 'Cormorant', serif;
 text-shadow: 0px 0px 10px #000000;
 letter-spacing: 0.5em;
+animation:focus-in-contract-bck 1s cubic-bezier(.25,.46,.45,.94) both;
 }
+@keyframes focus-in-contract-bck{0%{letter-spacing:1em;transform:translateZ(300px);filter:blur(12px);opacity:0}100%{transform:translateZ(12px);filter:blur(0);opacity:1}}
 .subtitulo{
 height: 4em;
 display: flex;
@@ -162,6 +164,7 @@ border-radius: 2%;
 box-shadow: 0px 0px 10px #000000;
 margin-left: 30%;
 }
+
 /*FOOTER*/
 .footer-foo{ 
 background-color: #1800D8;
@@ -171,9 +174,14 @@ justify-content: space-evenly;
 align-items:center;
 width: 100%;
 height: auto;
+
+}
+.footer-foo h2,p{
+margin-top: 1%;
 font-family: 'Cormorant', serif;
 font-size: 100%;
 color: #fff;
+
 }
 .footer-foo img{
 width: 4%;
