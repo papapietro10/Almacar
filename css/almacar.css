@@ -715,11 +715,10 @@ height: 2em;
 display: flex;
 align-items: flex-end;
 justify-content: center;
-
 }
 .container-servicio p{
 font-family:'Cormorant', serif; 
-color: #1800D8;
+color: #0f007d;
 font-size: 2em;
 height: 50%;
 display: flex;
@@ -727,35 +726,39 @@ align-items: center;
 justify-content: center;
 }
 .azul-servicio{
-margin-top: 5%;
+width: 100%;
+height: 20em;
 display: flex;
 justify-content: space-evenly;
+align-items: center;
 }
 .azul-servicio  img{
-background-color: #000000;
 width: 10em;
 border-radius: 100%;
-box-shadow:0px 0px 10px #000000;
+box-shadow:0px 0px 30px #0f007d;
 }
-.container-imagen{
-
-height: 30em;
-background-image: url(../image/6.jpg);
-background-size: 100% 100%;
-margin-left: 4%;
-margin-right: 4%;
-margin-top: 9%;
-box-shadow:0px 0px 10px #000000;
+/*Espacio del container*/
+.carousel{
+    background-color: #0f007d;
+}
+/*Margen del container*/
+.carousel-item{
+    margin-left: 24%;
+    margin-top: 5%;
+}
+/*Edicion de la imahgens*/
+.carru{
+    box-shadow:1px 0px 50px #1800D8;
+    border-radius: 2%;
 }
 
+/*segunda parte servicio*/
 .container-servicio-dos{
-margin-top: 5%;
 display: flex;
 justify-content: space-evenly;
-background-color: #1800D8;
+background-color: #0f007d;
 height: 30em;
 }
-
 .container-servicio-dos h2{
 width: 100%;
 height: 1.3em;
@@ -764,20 +767,68 @@ color: #fff;
 font-size:5em;
 display: flex;
 align-items: flex-end;
-text-shadow: 5px 5px 5px #0f007d;
+text-shadow: 5px 5px 5px #060036;
+margin-top: 15% ;
 }
-
 .container-servicio-dos p{
 font-family:'Cormorant', serif; 
 font-size: 2em;
 text-align: center;
-text-shadow: 5px 5px 5px #0f007d;
+text-shadow: 5px 5px 5px #060036;
 }
-
 .container-servicio-dos li{
 font-family:'Cormorant', serif; 
 color: #fff;
 font-size: 1.1em;
 margin-top: 5%;
-text-shadow: 5px 5px 5px #0f007d;
+text-shadow: 5px 5px 5px #060036;
+}
+/*Tercera parte servicio*/ 
+.container-servicio-tres{
+    height: 100%;
+}
+/*SERVICIO AEREO*/
+.aereo{
+    width: 100%;
+   display: grid;
+   grid-template-columns: 0.8fr 1fr;
+   grid-template-rows: 1.9fr 1.9fr 1fr ;
+   grid-template-areas: "aereo1 aereo2"
+   "aereo3 aereo4"
+   "aereo5 aero6"
+}
+.aereo img{
+    grid-area: aereo1;
+    grid-row: 1/6;
+    width:90%;
+    margin-left: 5%;
+    margin-top: 10%;
+    border-radius: 3%;
+    box-shadow:0px 0px 10px #0f007d;
+}
+.aereo h2{
+  grid-area: aereo2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 8em;
+  font-family:'Cormorant', serif; 
+  color: #1800D8;
+  text-shadow: 0px 0px 3px #060036;
+}
+.lista-aereo{
+   grid-area:aereo4 ;
+   margin-left: 5%;
+   font-family:'Cormorant', serif; 
+   font-size: 1.5em;
+  color: #1800D8;
+}
+ 
+.contacto-aereo{
+    grid-area: aero6;
+    width: 50%;
+    height: 30%;
+   margin-left: 25%;
+   margin-top: 5%;
+   box-shadow: 0px 0px 8px #060036;
 }
