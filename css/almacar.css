@@ -739,17 +739,17 @@ box-shadow:0px 0px 30px #0f007d;
 }
 /*Espacio del container*/
 .carousel{
-    background-color: #0f007d;
+background-color: #0f007d;
 }
 /*Margen del container*/
 .carousel-item{
-    margin-left: 24%;
-    margin-top: 5%;
+margin-left: 24%;
+margin-top: 5%;
 }
 /*Edicion de la imahgens*/
 .carru{
-    box-shadow:1px 0px 50px #1800D8;
-    border-radius: 2%;
+box-shadow:1px 0px 50px #1800D8;
+border-radius: 2%;
 }
 
 /*segunda parte servicio*/
@@ -757,7 +757,7 @@ box-shadow:0px 0px 30px #0f007d;
 display: flex;
 justify-content: space-evenly;
 background-color: #0f007d;
-height: 30em;
+height: 35em;
 }
 .container-servicio-dos h2{
 width: 100%;
@@ -773,62 +773,168 @@ margin-top: 15% ;
 .container-servicio-dos p{
 font-family:'Cormorant', serif; 
 font-size: 2em;
-text-align: center;
+
 text-shadow: 5px 5px 5px #060036;
 }
 .container-servicio-dos li{
 font-family:'Cormorant', serif; 
 color: #fff;
 font-size: 1.1em;
-margin-top: 5%;
+margin-top: 7%;
 text-shadow: 5px 5px 5px #060036;
 }
 /*Tercera parte servicio*/ 
 .container-servicio-tres{
-    height: 100%;
+height: 100%;
 }
 /*SERVICIO AEREO*/
 .aereo{
-    width: 100%;
-   display: grid;
-   grid-template-columns: 0.8fr 1fr;
-   grid-template-rows: 1.9fr 1.9fr 1fr ;
-   grid-template-areas: "aereo1 aereo2"
-   "aereo3 aereo4"
-   "aereo5 aero6"
+width: 100%;
+display: grid;
+height: 50em;
+grid-template-columns: 0.8fr 1fr;
+grid-template-rows: 1.9fr 1.9fr 1fr ;
+grid-template-areas: 
+"aereo1 aereo2"
+"aereo3 aereo4"
+"aereo5 aero6"
 }
 .aereo img{
-    grid-area: aereo1;
-    grid-row: 1/6;
-    width:90%;
-    margin-left: 5%;
-    margin-top: 10%;
-    border-radius: 3%;
-    box-shadow:0px 0px 10px #0f007d;
+grid-area: aereo1;
+grid-row: 1/6;
+width:90%;
+margin-left: 5%;
+margin-top: 10%;
+border-radius: 3%;
+box-shadow:0px 0px 10px #0f007d;
 }
 .aereo h2{
-  grid-area: aereo2;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 8em;
-  font-family:'Cormorant', serif; 
-  color: #1800D8;
-  text-shadow: 0px 0px 3px #060036;
+grid-area: aereo2;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 6em;
+font-family:'Cormorant', serif; 
+color: #1800D8;
+letter-spacing: 0.3em;
 }
 .lista-aereo{
-   grid-area:aereo4 ;
-   margin-left: 5%;
-   font-family:'Cormorant', serif; 
-   font-size: 1.5em;
-  color: #1800D8;
+grid-area:aereo4 ;
+margin-left: 5%;
+font-family:'Cormorant', serif; 
+font-size: 1.5em;
+color: #1800D8;
 }
- 
 .contacto-aereo{
-    grid-area: aero6;
-    width: 50%;
-    height: 30%;
-   margin-left: 25%;
-   margin-top: 5%;
-   box-shadow: 0px 0px 8px #060036;
+grid-area: aero6;
+width: 50%;
+height: 30%;
+margin-left: 25%;
+margin-top: 5%;
+box-shadow: 0px 0px 8px #060036;
+}
+
+/*SERVICIO MARITIMO*/
+
+.maritimo{
+background-color: #0f007d;
+width: 100%;
+height: 50em;
+display: grid;
+grid-template-columns:  1fr 0.8fr;
+grid-template-rows: 1.9fr 1.9fr 1.9fr ;
+grid-template-areas: 
+"maritimo1 maritimo2"
+"maritimo3 maritimo4"
+"maritimo5 maritimo6"
+}
+.maritimo h2{
+grid-area: maritimo1;
+display: flex;
+align-items: flex-end;
+justify-content: center;
+font-size: 5em;
+font-family:'Cormorant', serif; 
+color: #fff;
+letter-spacing: 0.3em;
+margin-left: 10%;
+margin-bottom: 5%;
+}
+.maritimo img{
+grid-area: maritimo2;
+width: 80%;
+height: 35em;
+grid-row: 1/6;
+border-radius: 3%;
+box-shadow:0px 0px 50px #1800D8;
+margin-left: 10%;
+margin-top: 20%;
+}
+.lista-maritimo{
+grid-area: maritimo3;
+font-family:'Cormorant', serif; 
+font-size: 1.5em;
+color: #fff;
+margin-left: 15%;
+margin-top: 5%;
+}
+.contacto-maritimo{
+grid-area: maritimo5;
+width: 50%;
+height: 20%;
+margin-left: 25%;
+margin-top: 10%;
+box-shadow: 0px 0px 20px #1800D8;
+}
+
+/*SERVICIO TERRESTRE*/
+.terrestre{
+width: 100%;
+display: grid;
+height: 50em;
+grid-template-columns: 0.8fr 1fr;
+grid-template-rows: 1.9fr 1.9fr 1fr ;
+grid-template-areas: 
+"terrestre1 terrestre2"
+"terrestre3 terrestre4"
+"terrestre5 terrestre6"
+}
+.terrestre img{
+grid-area: terrestre1;
+grid-row: 1/6;
+width:90%;
+height: 50%;
+margin-left: 5%;
+margin-top: 40%;
+border-radius: 3%;
+box-shadow:0px 0px 10px #0f007d;
+}
+.terrestre h2{
+grid-area: terrestre2;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 5em;
+font-family:'Cormorant', serif; 
+color: #1800D8;
+letter-spacing: 0.3em;
+margin-top: 10%;
+}
+.lista-terrestre{
+grid-area: terrestre4 ;
+margin-left: 5%;
+font-family:'Cormorant', serif; 
+font-size: 1.5em;
+color: #1800D8;
+margin-right: 7%;
+margin-top: 5%;
+
+}
+.contacto-terrestre{
+grid-area: terrestre6;
+width: 50%;
+height: 30%;
+margin-left: 25%;
+margin-top: 5%;
+box-shadow: 0px 0px 8px #060036;
 }
