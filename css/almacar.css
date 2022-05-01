@@ -189,6 +189,7 @@ margin-top: 0.5% ;
 
 /*FULL RESPONSIVE PARA MOBILE INICIO*/
 @media (max-width: 480px) {
+
 .nav-main{
 flex-direction: column;
 align-items: center;
@@ -503,10 +504,11 @@ margin-top:10% ;
 box-shadow: 0px 0px 10px #060036;
 border-radius: 2%;
 }
-/* FULL RESPONSIVE 480 QUIENES*/
+/* FULL RESPONSIVE 480 QUIENES
 @media (max-width: 480px){
 .titulo-logo-quienes{
 flex-wrap: wrap;
+
 }
 .titulo-logo-quienes img{
 width: 50%;
@@ -515,7 +517,7 @@ width: 50%;
 font-size: 5.4em;
 }
 .muelle{
-grid-template-columns: 1fr;
+grid-template-columns: 25em;
 grid-template-rows: 1fr 1fr ;
 grid-template-areas:  
 "muelle1" 
@@ -591,7 +593,15 @@ grid-area: vision3;
 margin-left: 13%;
 width: 80%;
 }
+.formulario-quienes{
+
 }
+.formulario-quienes form{
+
+}
+
+
+}*/
 
 /*---------------------ASESORAMIENTO ADUANERO---------------------*/
 
@@ -632,11 +642,11 @@ justify-content: center;
 align-items: center;
 background-repeat: repeat;
 }
-.imagen-consultoria{
+.imagen_consultoria img{
 width: 86%;
 height: 80%;
 border-radius: 1%;
-box-shadow:0px 0px 5px #000000;
+box-shadow:0px 0px 10px #0f007d;
 margin-right: 10%;
 }
 
@@ -735,16 +745,12 @@ align-items: center;
 justify-content: center;
 width: 100%;
 background-color: #fff;
-height: 35em;
-padding-left: 32%;
-padding-right: 30%;
 height: 40em;
 background-color: #0f007d; 
 
 }
 .formulario-quienes form{
-width: 100%;
-
+width: 50%;
 border:  0.2em solid #0f007d;
 border-radius: 3%;
 box-shadow: 0px 0px 10px #0000ff;
@@ -798,7 +804,97 @@ box-shadow:0px 0px 3px #0f007d;
 width: 50%;
 margin-left: 10%;
 }
+/*FULL RESPONSIVE PARA ASESORAMIENTO*/
+@media (max-width: 480px){
+.contenedor-grid-aseso{
+grid-template-columns: 1fr;
+grid-template-rows: 2.3fr 1fr;
+grid-template-areas: 
+"area1"
+"area2";
+}
+.inicio-consultoria{
+grid: area1;
+padding-top: 0%;
+}
+.inicio-consultoria h1{
+margin-top: 10%;
+font-size: 3.5em;
+text-align: center;
+margin-right: 10%;
+margin-left: 10%;
+}
+.inicio-consultoria p {
+margin-top: 20%;
+padding-top: 3%;
+margin-right: 10%;
+margin-left: 10%;
+}
+.imagen_consultoria{
+grid-area: area2;
+;
 
+margin-left: 10%;
+width: 90%;
+}
+
+.experimentados-container{
+   grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+"area1" 
+"area3"
+"area4";
+}
+.experimentados-container h2{
+grid-area: area1;
+font-size: 3.5em;
+margin-top: 5%;
+text-align: center;
+margin-right: 10%;
+margin-left: 5%;
+}
+.experimentados-container p{
+grid-area: area3;
+font-size: 1.5em;
+margin-right: 5%;
+margin-left: 15%;
+}
+.consultores-imagen{
+grid-area: area4;
+width: 90%;
+margin-top: 15%;
+}
+.logo-asesoramiento{
+grid-area: area2;
+width:0% ;
+}
+
+.azules_asesoramiento{
+flex-wrap: wrap;
+}
+.azules_asesoramiento img{
+width: 20%;
+}
+.titulo_servicios{
+flex-wrap: wrap;
+}
+.titulo-servicos{
+text-align: center;
+font-size: 2.4em;
+}
+.puntos_servicios{
+flex-direction: column;
+text-align: center;
+height: 500%;
+}
+.puntos_servicios li{
+text-align: justify;
+font-size: 1em;
+padding: 5%;
+margin-right: 10%;
+}
+}*/
 
 /*----------------- NUESTRO SERVICIO----------------------*/
 
