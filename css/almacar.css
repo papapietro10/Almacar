@@ -1267,3 +1267,15 @@ border-radius: 2%;
 margin-left: 5%;
 }
 
+
+   /*FULL RESPONSIVE PARA ASESORAMIENTO*/
+@media (max-width: 480px){
+
+.container-servicio h1{
+        font-size: 3em;
+        text-align: center;
+    }
+} .container-servicio p{
+    font-size: 1em;
+    
+}
