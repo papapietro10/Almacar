@@ -20,7 +20,7 @@ color: #fff;
 font-size: 100%;
 background-color: #1800D8;
 text-decoration: none;
-font-family: 'Cormorant', serif;  
+font-family: 'Cormorant', serif;
 text-shadow: 0px 0px 5px #000000;
 text-decoration: none;
 }
@@ -189,13 +189,12 @@ margin-top: 0.5% ;
 
 /*FULL RESPONSIVE PARA MOBILE INICIO*/
 @media (max-width: 480px) {
-
 .nav-main{
 flex-direction: column;
 align-items: center;
 text-align: center;
 line-height: 1.5em;
-width: 100%;
+width: 1fr;
 height: 20em
 }
 .nav-main a {
@@ -509,7 +508,7 @@ border-radius: 2%;
 
 @media (max-width: 480px){
 .titulo-logo-quienes{
-flex-direction: column;
+flex-wrap: wrap;
 }
 .titulo-logo-quienes img{
 width: 50%;
@@ -633,7 +632,7 @@ grid-template-areas:
 }
 
 .inicio-consultoria h1{
-    grid-area: area1;
+grid-area: area1;
 font-size: 8em;
 font-family: 'Cormorant', serif;
 color: #1800D8;
@@ -642,7 +641,7 @@ text-align:inherit;
 margin-left: 10%;
 }
 .inicio-consultoria p{
-    grid-area: area1;
+grid-area: area1;
 font-size: 1.5em;
 text-align: justify ;
 margin-left: 14%;
@@ -651,11 +650,11 @@ padding-top: 45%;
 color: #1800D8;
 }
 .inicio-consultoria img{
-    grid-area: area2;
-    width: 90%;
-    margin-top: 30%;
-    border-radius: 3%;
-    box-shadow:0px 0px 10px #0f007d;
+grid-area: area2;
+width: 90%;
+margin-top: 30%;
+border-radius: 3%;
+box-shadow:0px 0px 10px #0f007d;
 
 }
 /*segunda parte consultoria*/
@@ -674,13 +673,13 @@ width: 50%;
 margin-left: 27%;
 }
 .experimentados-container h2{
-    grid-area: consul2;
-    font-size: 6em;
-    color: #1800D8;
-    font-family: 'Cormorant', serif;
-    margin-top: 10%;
-    width: 100%;
-    }
+grid-area: consul2;
+font-size: 6em;
+color: #1800D8;
+font-family: 'Cormorant', serif;
+margin-top: 10%;
+width: 100%;
+}
 .consultores-imagen{
 grid-area: consul3;
 width: 90%;
@@ -714,7 +713,6 @@ width: 12em;
 border-radius: 100%;
 box-shadow:0px 0px 20px #8c8c8c;
 }
-
 /* TERCERA PARTE COSULTORIA*/
 .barra_asesoramiento{
 margin-top: 5%;
@@ -746,7 +744,6 @@ font-family: 'Cormorant', serif;
 margin-left: 11%;
 color: #1800D8;
 }
-
 /*FORMULARIO ASESORAMIENTO*/
 .formulario-quienes{
 display: flex;
@@ -756,7 +753,6 @@ width: 100%;
 background-color: #fff;
 height: 40em;
 background-color: #0f007d; 
-
 }
 .formulario-quienes form{
 width: 50%;
@@ -815,6 +811,7 @@ margin-left: 10%;
 }
 /*FULL RESPONSIVE PARA ASESORAMIENTO*/
 @media (max-width: 480px){
+
 .inicio-consultoria{
 grid-template-columns: 1fr;
 grid-template-rows: 1.5fr 1fr;
@@ -1269,3 +1266,4 @@ width: 85%;
 border-radius: 2%;
 margin-left: 5%;
 }
+
