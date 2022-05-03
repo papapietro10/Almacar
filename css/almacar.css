@@ -929,37 +929,37 @@ font-family:'Cormorant', serif;
 color: #fff; 
 background-color: #0f007d;
 }
-    /* EMAILFORMULARIO*/
-    .ingrese-mail-quienes{
-    color: #0f007d;
-    font-family:'Cormorant', serif; 
-    font-size: 1.5em;
-    margin-left: 10%;
-    }
-    .ingrese_mail_quienes{
-    width: 50%;
-    margin-left: 10%;
-    box-shadow:0px 0px 3px #0f007d;
-    }
-    /*COMENTARIO FORMULARIO*/
-    .ingrese-comentario-quienes{
-    color: #0f007d;
-    font-family:'Cormorant', serif; 
-    font-size: 1.6em;
-    margin-left: 10%;
-    margin-top: 5%;
-    }
-    .ingrese_comentario_quienes{
-    width: 50%;
-    margin-left: 10%;
-    box-shadow:0px 0px 3px #0f007d;
-    }
-    /*BOTON ENVIAR*/
-    .enviar-form-quienes{
-    width: 50%;
-    margin-left: 10%;
-    }
-    }
+/* EMAILFORMULARIO*/
+.ingrese-mail-quienes{
+color: #0f007d;
+font-family:'Cormorant', serif; 
+font-size: 1.5em;
+margin-left: 10%;
+}
+.ingrese_mail_quienes{
+width: 50%;
+margin-left: 10%;
+box-shadow:0px 0px 3px #0f007d;
+}
+/*COMENTARIO FORMULARIO*/
+.ingrese-comentario-quienes{
+color: #0f007d;
+font-family:'Cormorant', serif; 
+font-size: 1.6em;
+margin-left: 10%;
+margin-top: 5%;
+}
+.ingrese_comentario_quienes{
+width: 50%;
+margin-left: 10%;
+box-shadow:0px 0px 3px #0f007d;
+}
+/*BOTON ENVIAR*/
+.enviar-form-quienes{
+width: 50%;
+margin-left: 10%;
+}
+}
 
 /*----------------- NUESTRO SERVICIO----------------------*/
 
