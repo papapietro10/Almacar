@@ -525,8 +525,7 @@ grid-template-rows: 0.5fr 0.5fr 1fr;
 grid-template-areas: 
 "muelle1"
 "muelle2"
-"muelle3"
-;
+"muelle3";
 }
 .muelle img{
 margin-left: 15%;
@@ -545,6 +544,9 @@ margin-left: 10%;
 }
 .azules-quienes{
 height: 10em;
+overflow: hidden;
+width: 100%;
+max-width: 100%;
 }
 .azules-quienes img{
 width: 25%;
@@ -620,7 +622,6 @@ margin-left: 5%;
 margin-top: 3%;
 }
 }
-
 /*---------------------ASESORAMIENTO ADUANERO---------------------*/
 
 .inicio-consultoria{
@@ -685,7 +686,6 @@ grid-area: consul3;
 width: 90%;
 margin-left: 10%;
 }
-
 .experimentados-container p{
 font-family: 'Cormorant', serif;
 grid-area: consul4;
@@ -815,7 +815,8 @@ margin-left: 10%;
 .inicio-consultoria{
 grid-template-columns: 1fr;
 grid-template-rows: 1.5fr 1fr;
-grid-template-areas: "area1"
+grid-template-areas: 
+"area1"
 "area2";
 }
 .inicio-consultoria h1{
@@ -866,7 +867,10 @@ margin-top: 10%;
 }
 /*AZULES*/
 .azules_asesoramiento{
-flex-wrap: wrap;
+height: 10em;
+overflow: hidden;
+width: 100%;
+max-width: 100%;
 }
 .azules_asesoramiento img{
 width: 20%;
@@ -1268,14 +1272,24 @@ margin-left: 5%;
 }
 
 
-   /*FULL RESPONSIVE PARA ASESORAMIENTO*/
+/*FULL RESPONSIVE PARA ASESORAMIENTO*/
 @media (max-width: 480px){
 
 .container-servicio h1{
-        font-size: 3em;
-        text-align: center;
-    }
-} .container-servicio p{
-    font-size: 1em;
-    
+font-size: 3em;
+text-align: center;
+}
+ .container-servicio p{
+font-size: 1em;
+}
+.azul-servicio{
+height: 10em;
+overflow: hidden;
+width: 100%;
+max-width: 100%;
+}
+.azul-servicio img{
+    width: 20%;
+    box-shadow:0px 0px 10px #060036;
+}
 }
