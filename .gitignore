@@ -1,1 +1,4 @@
 /node_modules
+
+ "build-css":"node-sass --include-path scss scss/almacar.scss css/prueba.css",
+    "watch-css":"nodemon -e scss -x \"npm run build-css\""
