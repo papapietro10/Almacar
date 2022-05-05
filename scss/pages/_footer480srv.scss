@@ -1,0 +1,17 @@
+
+/*FOOTER*/
+@media (max-width: 480px){
+.footer-foo{
+    flex-direction: column-reverse;
+    }
+    .footer-foo h2{
+    font-size: 1.4em;
+    transition: 0.5s;
+    }
+    .footer-foo p{
+    font-size: 1.4em;
+    transition: 0.5s;
+    }
+    .footer-foo img{
+    width: 20%;
+    }}

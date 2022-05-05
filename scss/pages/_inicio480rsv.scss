@@ -1,0 +1,133 @@
+/*FULL 480 RESPONSIVE PARA MOBILE INICIO*/
+@media (max-width: 480px) {
+.nav-main{
+flex-direction: column;
+align-items: center;
+text-align: center;
+line-height: 1.5em;
+width: 1fr;
+height: 20em
+}
+.nav-main a {
+font-size: 1.4em;
+transition: 0.5s;
+}
+.nav-main img{
+width: 6em;
+}
+.titulo{
+width: 100%;
+height: 15em;
+}
+.titulo h1{
+font-size: 3.5em;
+letter-spacing: 0em;
+animation:focus-in-contract-bck 0s cubic-bezier(.25,.46,.45,.94) both;
+}
+@keyframes focus-in-contract-bck{0%{letter-spacing:1em;transform:translateZ(300px);filter:blur(12px);opacity:0}100%{transform:translateZ(12px);filter:blur(0);opacity:1}}
+.subtitulo{
+width: 100%;
+height: 5em; 
+}
+.subtitulo p{
+font-size: 100%;
+text-align: center;
+text-shadow:0px 0px 0px #fff;
+}
+.azul-inicio{
+flex-direction: column;
+}
+.azul-inicio img{
+width: 20%;
+box-shadow: 0px 0px 10px #000000;
+}
+.barra-inicio {
+position: relative;
+bottom: 0.7em;
+}
+/*FOOTER*/
+.footer-foo{
+flex-direction: column-reverse;
+}
+.footer-foo h2{
+font-size: 1.4em;
+transition: 0.5s;
+}
+.footer-foo p{
+font-size: 1.4em;
+transition: 0.5s;
+}
+.footer-foo img{
+width: 20%;
+}
+/*formulario*/
+
+.imagen-formulario img{
+width: 80%;
+margin-left: 10%;
+}
+.formulario-inicio{
+align-items: center;
+justify-content: center;
+flex-wrap: wrap;
+width: 100%;
+background-color: #fff;
+height: 56em;
+}
+.formulario-inicio form{
+width: 150%;
+margin-right: 10%;
+margin-left: 10%;
+border:  0.2em solid #0f007d;
+border-radius: 3%;
+box-shadow: 0px 0px 10px #c2c2ff;
+background-color: #8c8c8c1e;
+}
+.titulo-form{
+flex-direction: column;
+align-items: center;
+}
+.titulo-form h2{
+margin-top: 5%;
+font-family:'Cormorant', serif; 
+font-size: 2em;
+color: #0f007d;
+}
+.titulo-form p{
+font-size: 1em;
+margin-top: 5%;
+font-family:'Cormorant', serif;
+color: #fff; 
+background-color: #0f007d;
+}
+/* EMAILFORMULARIO*/
+.ingrese-mail-inicio{
+color: #0f007d;
+font-family:'Cormorant', serif; 
+font-size: 1.5em;
+margin-left: 10%;
+}
+.ingrese_mail_inicio{
+width: 50%;
+margin-left: 10%;
+box-shadow:0px 0px 3px #0f007d;
+}
+/*COMENTARIO FORMULARIO*/
+.ingrese-comentario-inicio{
+color: #0f007d;
+font-family:'Cormorant', serif; 
+font-size: 1.6em;
+margin-left: 10%;
+margin-top: 5%;
+}
+.ingrese_comentario_inicio{
+width: 50%;
+margin-left: 10%;
+box-shadow:0px 0px 3px #0f007d;
+}
+/*BOTON ENVIAR*/
+.enviar-form-inicio{
+width: 50%;
+margin-left: 10%;
+}
+}
