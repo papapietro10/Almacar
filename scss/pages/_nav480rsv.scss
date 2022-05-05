@@ -1,0 +1,16 @@
+@media (max-width: 480px) {
+    .nav-main{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    line-height: 1.5em;
+    width: 1fr;
+    height: 20em
+    }
+    .nav-main a {
+    font-size: 1.4em;
+    transition: 0.5s;
+    }
+    .nav-main img{
+    width: 6em;
+    } }

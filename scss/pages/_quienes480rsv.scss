@@ -1,0 +1,117 @@
+/*FULL RESPONSIVE 480 QUIENES*/
+
+@media (max-width: 480px){
+.titulo-logo-quienes{
+flex-wrap: wrap;
+}
+.titulo-logo-quienes img{
+width: 50%;
+margin-left: 17%;
+}
+.titulo-logo-quienes h1{
+font-size: 4em;
+text-align: center;
+margin-top: 10%;
+}
+.muelle{
+grid-template-columns: 1fr;
+grid-template-rows: 0.5fr 0.5fr 1fr;
+grid-template-areas: 
+"muelle1"
+"muelle2"
+"muelle3";
+}
+.muelle img{
+margin-left: 15%;
+margin-top: 0%;
+grid-row:1/2;
+}
+.muelle p{
+margin-top: 10%;
+margin-right: 10%;
+margin-left: 10%;
+}
+.muelle text{
+margin-top: 20%;
+margin-right: 10%;
+margin-left: 10%;
+}
+.azules-quienes{
+height: 10em;
+overflow: hidden;
+width: 100%;
+max-width: 100%;
+}
+.azules-quienes img{
+width: 25%;
+}
+.texto-dos-quienes{
+grid-template-columns: 1fr;
+grid-template-rows: 0.5fr 1fr 0.5fr;
+grid-template-areas: "espacio1"
+"espacio3"
+"espacio4";
+}
+.texto-dos-quienes p{
+margin-right: 10%;
+margin-left: 10%
+}
+.texto-dos-quienes text{
+margin-top: 20%;
+margin-right: 10%;
+margin-left: 10%
+}
+.texto-dos-quienes img{
+grid-area: espacio4;
+margin-left: 19%;
+margin-right: 20%;
+margin-top: 20%;
+}
+.contenedor-mision{
+grid-template-columns: 1fr;
+grid-template-rows: 0.7fr 1fr 0.5fr;
+grid-area: "mision1"
+"mision2"
+"mision3"
+"mision4"
+;
+}
+.contenedor-mision h2{
+text-align: center;
+margin-left: 1%;
+font-size: 5em;
+}
+.contenedor-mision p{
+margin-top: 10%;
+margin-right: 10%;
+margin-left: 10%
+}
+.contenedor-mision img{
+grid-area: mision3;
+grid-row: 3/3;
+margin-left: 20%;
+}
+.contenedor-vision{
+height: 90em;
+grid-template-columns: 1fr;
+grid-template-rows: 0.6fr 1fr 0.5fr;
+grid-template-areas: 
+"vision1"
+"vision3"
+"vision2";
+}
+.contenedor-vision h2{
+text-align: center;
+margin-left: 1%;
+font-size: 5em;
+}
+.contenedor-vision p{
+margin-top: 5%;
+margin-right: 10%;
+margin-left: 10%
+}
+.contenedor-vision img{
+grid-area: vision2;
+margin-left: 5%;
+margin-top: 3%;
+}}

@@ -1,0 +1,22 @@
+/*FULL RESPONSIVE 480 SERVICIO*/
+@media (max-width: 480px){
+
+    .container-servicio h1{
+    font-size: 3em;
+    text-align: center;
+    }
+     .container-servicio p{
+    font-size: 1em;
+    }
+    .azul-servicio{
+    height: 10em;
+    overflow: hidden;
+    width: 100%;
+    max-width: 100%;
+    }
+    .azul-servicio img{
+        width: 20%;
+        box-shadow:0px 0px 10px #060036;
+    }
+    }
+    

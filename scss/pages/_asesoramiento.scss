@@ -1,0 +1,186 @@
+/*---------------------ASESORAMIENTO ADUANERO---------------------*/
+
+.inicio-consultoria{
+display: grid;
+grid-template-columns: 1fr 0.4fr;
+grid-template-rows: 50em;
+grid-template-areas:
+"area1 area2";
+}
+.inicio-consultoria h1{
+grid-area: area1;
+font-size: 8em;
+font-family: 'Cormorant', serif;
+color: #1800D8;
+padding-top: 10%;
+text-align:inherit;
+margin-left: 10%;
+}
+.inicio-consultoria p{
+grid-area: area1;
+font-size: 1.5em;
+text-align: justify ;
+margin-left: 14%;
+margin-right: 9% ;
+padding-top: 45%;
+color: #1800D8;
+}
+.inicio-consultoria img{
+grid-area: area2;
+width: 90%;
+margin-top: 30%;
+border-radius: 3%;
+box-shadow:0px 0px 10px #0f007d;
+
+}
+/*segunda parte consultoria*/
+.experimentados-container{
+display: grid;
+height: 100%;
+grid-template-columns: 1fr 1fr;
+grid-template-rows: 0.5fr 0.5fr ;
+grid-template-areas:
+"consul1 consul2 "
+"consul3 consul4";
+}
+.logo-asesoramiento{
+grid-area: consul1;
+width: 50%;
+margin-left: 27%;
+}
+.experimentados-container h2{
+grid-area: consul2;
+font-size: 6em;
+color: #1800D8;
+font-family: 'Cormorant', serif;
+margin-top: 10%;
+width: 100%;
+}
+.consultores-imagen{
+grid-area: consul3;
+width: 90%;
+margin-left: 10%;
+}
+.experimentados-container p{
+font-family: 'Cormorant', serif;
+grid-area: consul4;
+grid-row: 2/4;
+font-size: 1.5em;
+text-align: justify ;
+margin-right: 20% ;
+color: #1800D8;
+line-height: 2em;
+}
+.espacio-experimentados{
+font-family: 'Cormorant', serif;
+position: relative;
+top: 4%;
+text-align: justify;
+}
+/*AZULES*/
+.azules_asesoramiento{
+display:flex;
+justify-content: space-evenly;
+align-items: center;
+}
+.azules_asesoramiento img{
+width: 12em;
+border-radius: 100%;
+box-shadow:0px 0px 20px #8c8c8c;
+}
+/* TERCERA PARTE COSULTORIA*/
+.barra_asesoramiento{
+margin-top: 5%;
+height: 10px;
+background-image: linear-gradient(to left,  #1800D8, #1900d8b1, rgba(255, 255, 255, 0.26));
+}
+.titulo_servicios{
+display:flex;
+justify-content: center;
+align-items: flex-end;
+height: 150px;
+}
+.titulo-servicos{
+font-family: 'Cormorant', serif;
+font-size: 4em;
+color: #1800D8;
+text-shadow: #ffffff;
+}
+.puntos_servicios{
+display:flex;
+flex-direction: column;
+justify-content: space-evenly;
+height: 550px;
+}
+.puntos_servicios li{
+letter-spacing: 3px;
+font-size: 1.2em;
+font-family: 'Cormorant', serif;
+margin-left: 11%;
+color: #1800D8;
+}
+/*FORMULARIO ASESORAMIENTO*/
+.formulario-quienes{
+display: flex;
+align-items: center;
+justify-content: center;
+width: 100%;
+background-color: #fff;
+height: 40em;
+background-color: #0f007d; 
+}
+.formulario-quienes form{
+width: 50%;
+border:  0.2em solid #0f007d;
+border-radius: 3%;
+box-shadow: 0px 0px 10px #0000ff;
+background-color: #ffffff;
+}
+.titulo-form-quienes{
+display:flex;
+flex-direction: column;
+align-items: center;
+}
+.titulo-form-quienes h2{
+margin-top: 2%;
+font-family:'Cormorant', serif; 
+font-size: 4em;
+color: #0f007d;
+}
+.titulo-form-quienes p{
+font-size: 1.5em;
+margin-top: 2%;
+font-family:'Cormorant', serif;
+color: #fff; 
+background-color: #0f007d;
+}
+/* EMAILFORMULARIO*/
+.ingrese-mail-quienes{
+color: #0f007d;
+font-family:'Cormorant', serif; 
+font-size: 1.6em;
+margin-left: 10%;
+}
+.ingrese_mail_quienes{
+width: 50%;
+margin-left: 10%;
+box-shadow:0px 0px 3px #0f007d;
+}
+/*COMENTARIO FORMULARIO*/
+.ingrese-comentario-quienes{
+color: #0f007d;
+font-family:'Cormorant', serif; 
+font-size: 1.6em;
+margin-left: 10%;
+margin-top: 5%;
+}
+.ingrese_comentario_quienes{
+width: 50%;
+margin-left: 10%;
+box-shadow:0px 0px 3px #0f007d;
+}
+/*BOTON ENVIAR*/
+.enviar-form-quienes{
+width: 50%;
+margin-left: 10%;
+}

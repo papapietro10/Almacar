@@ -1,0 +1,152 @@
+/*FULL RESPONSIVE PARA ASESORAMIENTO*/
+@media (max-width: 480px){
+
+    .inicio-consultoria{
+    grid-template-columns: 1fr;
+    grid-template-rows: 1.5fr 1fr;
+    grid-template-areas: 
+    "area1"
+    "area2";
+    }
+    .inicio-consultoria h1{
+    font-size: 3.5em;
+    text-align: center;
+    margin-right: 10%;
+    margin-left: 10%;
+    }
+    .inicio-consultoria p{
+    margin-top: 35%;
+    }
+    .inicio-consultoria img{
+    margin-top: 10%;
+    margin-left: 5.1%;
+    }
+    /*CONSULTORES EXPERIMENTADOS*/
+    .experimentados-container{
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.3fr 0.2fr 3.0fr 1fr;
+    grid-template-areas: 
+    "consul1"
+    "consul2"
+    "consul3"
+    "consul4";
+    }
+    .logo-asesoramiento{
+    width: 30%;
+    margin-left: 35%;
+    }
+    .experimentados-container h2{
+    font-size: 3.5em;
+    text-align: center;
+    margin-top:1%; 
+    }
+    .experimentados-container p{
+    margin-top: 50%;
+    margin-right: 10%;
+    margin-left: 10%;
+    }
+    .espacio-experimentados{
+    position: relative;
+    top:10%
+    }
+    .consultores-imagen{
+    grid-area: consul4;
+    width: 80%;
+    margin-top: 10%;
+    }
+    /*AZULES*/
+    .azules_asesoramiento{
+    height: 10em;
+    overflow: hidden;
+    width: 100%;
+    max-width: 100%;
+    }
+    .azules_asesoramiento img{
+    width: 20%;
+    }
+    /*SERVICIOCOSULTORES*/
+    .titulo_servicios{
+    flex-wrap: wrap;
+    }
+    .titulo-servicos{
+    text-align: center;
+    font-size: 2.4em;
+    }
+    .puntos_servicios{
+    flex-direction: column;
+    text-align: center;
+    height: 500%;
+    }
+    .puntos_servicios li{
+    text-align: justify;
+    font-size: 1em;
+    padding: 5%;
+    margin-right: 10%;
+    }
+    /*FORMULario consultores*/
+    .formulario-quienes{
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color:#0f007d;
+    height: 45em;
+    }
+    .formulario-quienes form{
+    width: 150%;
+    margin-right: 10%;
+    margin-left: 10%;
+    border:  0.2em solid #1e00ff;
+    border-radius: 3%;
+    box-shadow: 0px 0px 15px #0000ff;
+    background-color: #ffffff;
+    }
+    .titulo-form-quienes {
+    flex-direction: column;
+    align-items: center;
+    }
+    .titulo-form-quienes h2{
+    margin-top: 5%;
+    font-family:'Cormorant', serif; 
+    font-size: 2em;
+    color: #0f007d;
+    }
+    .titulo-form-quienes p{
+    text-align: center;
+    font-size: 1em;
+    margin-top: 5%;
+    font-family:'Cormorant', serif;
+    color: #fff; 
+    background-color: #0f007d;
+    }
+    /* EMAILFORMULARIO*/
+    .ingrese-mail-quienes{
+    color: #0f007d;
+    font-family:'Cormorant', serif; 
+    font-size: 1.5em;
+    margin-left: 10%;
+    }
+    .ingrese_mail_quienes{
+    width: 50%;
+    margin-left: 10%;
+    box-shadow:0px 0px 3px #0f007d;
+    }
+    /*COMENTARIO FORMULARIO*/
+    .ingrese-comentario-quienes{
+    color: #0f007d;
+    font-family:'Cormorant', serif; 
+    font-size: 1.6em;
+    margin-left: 10%;
+    margin-top: 5%;
+    }
+    .ingrese_comentario_quienes{
+    width: 50%;
+    margin-left: 10%;
+    box-shadow:0px 0px 3px #0f007d;
+    }
+    /*BOTON ENVIAR*/
+    .enviar-form-quienes{
+    width: 50%;
+    margin-left: 10%;
+    }
+    }

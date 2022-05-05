@@ -1,0 +1,183 @@
+/*---------------------QUIENES SOMSOS---------------------*/
+
+
+/*QUINES SOMOS PRIMERAPARTE*/
+.titulo-logo-quienes{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+height: 30em;
+}
+.titulo-logo-quienes img{
+width: 30%;
+position: relative;
+top: 3%;
+right: 6%;
+margin-left: 11%;
+}
+.titulo-logo-quienes h1{
+font-size: 6.3em;
+font-family:'Cormorant', serif; 
+color: #1800D8;
+text-align: center;
+}
+/*PRIMER CONTAINER MUELLE*/
+.muelle{
+display:grid;
+grid-template-columns: 1fr 1fr;
+grid-template-rows: 1fr 1fr ;
+grid-template-areas:  
+    "muelle1 muelle2"
+"muelle4 muelle3";
+}
+.muelle img {
+grid-area: muelle1;
+grid-row: 1/3;
+width: 70%;
+border-radius: 2%;
+margin-left: 20%;
+box-shadow: 0px 0px 10px #060036;
+}
+.muelle p{
+grid-area: muelle2;
+color: #1800D8;
+font-size: 1.5em;
+margin-right: 20%;
+letter-spacing: 5px;
+font-family:'Cormorant', serif;
+text-align: justify;
+margin-top: 5%;
+}
+.muelle text{
+grid-area: muelle3;
+margin-bottom: 20%;
+color: #1800D8;
+font-size: 1.5em;
+margin-right: 20%;
+letter-spacing: 5px;
+font-family:'Cormorant', serif;
+text-align: justify;
+}
+/*AZULES QUIENES*/
+.azules-quienes {
+display: flex;
+justify-content: space-evenly;
+align-items: center
+}
+.azules-quienes img{
+height: auto;
+width: 15%;
+border-radius: 100%;
+box-shadow: 0px 0px 10px #060036;
+}
+/*QUIENES SOMOS SEGUNDA PARTE*/
+.texto-dos-quienes{
+display:grid;
+grid-template-columns: 1fr 1fr;
+grid-template-rows: 1fr 1fr ;
+grid-template-areas: 
+"espacio1 espacio2"
+"espacio3 espacio4";
+}
+.texto-dos-quienes p{
+color: #1800D8;
+font-size: 1.3em;
+letter-spacing: 5px;
+font-family:'Cormorant', serif; 
+grid-area: espacio1;
+text-align: justify;
+margin-top: 10%;
+margin-left: 25%;
+}
+.texto-dos-quienes text{
+grid-area: espacio3;
+color: #1800D8;
+font-size: 1.3em;
+text-align: justify;
+letter-spacing: 5px;
+font-family:'Cormorant', serif; 
+margin-left: 25%;
+}
+.texto-dos-quienes img{
+grid-area: espacio2;
+grid-row: 1/3;
+width: 59%;
+margin-top: 10%;
+margin-left: 25%;
+box-shadow: 0px 0px 10px #060036;
+border-radius: 20px;
+position: relative;
+left: 1%;
+}
+/*NUESTRA MISION Y VISION*/
+/*LOGO Y NUESTRA MISION TITULO / TEXTO*/
+/*MISION*/
+.contenedor-mision{
+display: grid;
+grid-template-columns: 0.8fr 1fr;
+grid-template-rows: 0.8fr 0.5fr;
+grid-template-areas:
+"mision1 mision2"
+"mision4 mision3"
+}
+.contenedor-mision img{
+grid-area: mision1;
+width: 65%;
+margin-left: 25%;
+margin-top: 15%;
+grid-row: 1/3;
+}
+.contenedor-mision h2{
+grid-area: mision2;
+font-family:'Cormorant', serif; 
+font-size: 6em;
+margin-top: 20%;
+color: #1800D8;
+margin-left:10%;
+}
+.contenedor-mision p{
+grid-area: mision3;
+color: #1800D8;
+font-size: 1.3em;
+letter-spacing: 5px;
+text-align: justify;
+margin-top: 1%;
+margin-right:11% ;
+margin-left:10%;
+}
+/*VISION */
+.contenedor-vision{
+height: 35em;
+display: grid;
+grid-template-columns: 1fr 0.9fr;
+grid-template-rows: 0.5fr 1fr;
+grid-template-areas:
+"vision1 vision2"
+"vision3 vision4"
+}
+.contenedor-vision h2{
+grid-area: vision1;
+font-family:'Cormorant', serif; 
+font-size: 6em;
+color: #1800D8;
+margin-left: 10%;
+}
+.contenedor-vision p{
+grid-area: vision3;
+color: #1800D8;
+font-size: 1.3em;
+letter-spacing: 5px;
+text-align: justify;
+margin-top: 1%;
+margin-left: 15%;
+margin-right: 15%;
+}
+.contenedor-vision img{
+grid-area:vision2 ;
+grid-row: 1/3;
+width: 90%;
+margin-top:10% ;
+box-shadow: 0px 0px 10px #060036;
+border-radius: 2%;
+}

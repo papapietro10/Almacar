@@ -1,0 +1,126 @@
+/*INICIO*/
+.fondo{
+background-image: url(../image/Fondo-inicio.jpg.jpg);
+background-size: 100% 100%; 
+}
+.titulo{
+height: 20em;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.titulo h1{
+color:#fff;
+font-size: 5em;
+font-family: 'Cormorant', serif;
+text-shadow: 0px 0px 10px #000000;
+letter-spacing: 0.5em;
+animation:focus-in-contract-bck 1s cubic-bezier(.25,.46,.45,.94) both;
+}
+@keyframes focus-in-contract-bck{0%{letter-spacing:1em;transform:translateZ(300px);filter:blur(12px);opacity:0}100%{transform:translateZ(12px);filter:blur(0);opacity:1}}
+.subtitulo{
+height: 4em;
+display: flex;
+justify-content:center;
+align-items: center;
+background-color: #1900d87b;
+box-shadow: 0px 0px 55px #000000;
+}
+.subtitulo p{
+color:#fff;
+font-size: 1.5em;
+font-family: 'Cormorant', serif;
+text-shadow: 0px 0px 3px #ffffff;
+letter-spacing: 0.2em;
+}
+/*AZULES*/
+.azul-inicio{
+height: 22em;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+}
+.azul-inicio img{
+box-shadow: 0px 0px 40px #000000;
+width: 11%;
+height: auto;
+border-radius: 100%;
+}
+/*BARRA*/
+.barra-inicio{
+height: 2em;
+width: 100%;
+margin-top: -1.19%;
+margin-bottom: -1%;
+background-image: linear-gradient(to left,  #1800D8, #1900d8b1, rgba(255, 255, 255, 0.26));
+}
+/* IMAGEN Y FORMULARIO */
+.formulario-inicio{
+display: flex;
+align-items: center;
+justify-content: center;
+width: 100%;
+background-color: #fff;
+height: 35em;
+}
+.formulario-inicio form{
+width: 150%;
+margin-right: 6%;
+border:  0.2em solid #0f007d;
+border-radius: 3%;
+box-shadow: 0px 0px 10px #c2c2ff;
+background-color: #8c8c8c1e;
+}
+.titulo-form{
+display:flex;
+flex-direction: column;
+align-items: center;
+}
+.titulo-form h2{
+margin-top: 5%;
+font-family:'Cormorant', serif; 
+font-size: 4em;
+color: #0f007d;
+}
+.titulo-form p{
+font-size: 1.5em;
+margin-top: 5%;
+font-family:'Cormorant', serif;
+color: #fff; 
+background-color: #0f007d;
+}
+/* EMAILFORMULARIO*/
+.ingrese-mail-inicio{
+color: #0f007d;
+font-family:'Cormorant', serif; 
+font-size: 1.6em;
+margin-left: 10%;
+}
+.ingrese_mail_inicio{
+width: 50%;
+margin-left: 10%;
+box-shadow:0px 0px 3px #0f007d;
+}
+/*COMENTARIO FORMULARIO*/
+.ingrese-comentario-inicio{
+color: #0f007d;
+font-family:'Cormorant', serif; 
+font-size: 1.6em;
+margin-left: 10%;
+margin-top: 5%;
+}
+.ingrese_comentario_inicio{
+width: 50%;
+margin-left: 10%;
+box-shadow:0px 0px 3px #0f007d;
+}
+/*BOTON ENVIAR*/
+.enviar-form-inicio{
+width: 50%;
+margin-left: 10%;
+}
+.imagen-formulario img{
+width: 85%;
+border-radius: 2%;
+margin-left: 5%;
+}
