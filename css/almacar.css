@@ -1231,6 +1231,7 @@ nav > a:hover {
   .azul-servicio img {
     width: 20%;
     box-shadow: 0px 0px 10px #060036; }
+  /*EXPO INMPOR*/
   .container-servicio-dos {
     height: 80em;
     overflow: hidden;
@@ -1262,6 +1263,7 @@ nav > a:hover {
   .exportacion-servicios li {
     margin-left: 5%;
     font-size: 0.9em; }
+  /*AEREO*/
   .aereo {
     height: 80em;
     grid-template-columns: 1fr;
@@ -1287,4 +1289,47 @@ nav > a:hover {
     text-align: center;
     width: 50%;
     height: 35%;
-    margin-top: 0%; } }
+    margin-top: 0%; }
+  /*MARITIMO*/
+  .maritimo {
+    height: 70em;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: "maritimo1" "maritimo3" "maritimo2" "maritimo4" "maritimo6" "maritimo5"; }
+  .maritimo h2 {
+    font-size: 3em;
+    margin-top: 7%;
+    text-align: center; }
+  .maritimo img {
+    grid-row: 3/5;
+    height: 90%; }
+  .lista-maritimo {
+    margin-right: 10%;
+    margin-left: 10%; }
+  .lista-maritimo li {
+    font-size: 1em;
+    text-align: justify;
+    padding: 5%; }
+  .contacto-maritimo {
+    text-align: center;
+    width: 50%;
+    height: 35%;
+    margin-top: 0%; }
+  /*TERRESTRE*/
+  .terrestre {
+    height: 80em;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 0.1fr 1fr  1fr 1fr;
+    grid-template-areas: "terrestre2" "terrestre4" "terrestre3" "terrestre1" "terrestre5" "terrestre6"; }
+  .terrestre h2 {
+    margin-top: 0%;
+    font-size: 2.8em; }
+  .terrestre li {
+    font-size: 1em;
+    text-align: justify;
+    padding: 5%; }
+  .terrestre img {
+    grid-row: 3/5;
+    margin-top: 50%;
+    width: 80%;
+    height: 70; } }

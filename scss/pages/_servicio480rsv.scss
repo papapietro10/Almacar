@@ -1,102 +1,169 @@
 /*FULL RESPONSIVE 480 SERVICIO*/
 @media (max-width: 480px){
 
-    .container-servicio h1{
-    font-size: 3em;
-    text-align: center;
-    }
-     .container-servicio p{
-    font-size: 1em;
-    }
-    .azul-servicio{
-    height: 10em;
-    overflow: hidden;
-    width: 100%;
-    max-width: 100%;
-    }
-    .azul-servicio img{
-        width: 20%;
-        box-shadow:0px 0px 10px #060036;
-    }
-    .container-servicio-dos{
-        height: 80em;
-        overflow: hidden;
-        width: 100%;
-        max-width: 100%;
-        flex-direction: column;
-        justify-content: space-evenly;
-    }
-    .importacion-servicios{
-        width: 90%;
-        justify-content: center;
-        align-items: center;
-        height: 24em;
-    }
-    .importacion-servicios h2{
-    font-size: 3em;
-    }
-    .importacion-servicios p{
-        font-size: 1.4em;
-    }
-    .importacion-servicios li{
-        margin-left: 5%;
-        font-size: 0.9em;
-    }
-    .exportacion-servicios{
-        width: 90%;
-        justify-content: center;
-        align-items: center;
-        height: 24em;
-    }
-    .exportacion-servicios h2{
-    font-size: 3em;
-    }
-    .exportacion-servicios p{
-        font-size: 1.4em;
-    }
-    .exportacion-servicios li{
-        margin-left: 5%;
-        font-size: 0.9em;
-    }
-    .aereo{
-       height: 80em;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-        grid-template-areas: 
-        "aereo2"
-        "aereo4"
-        "aereo1"
-        "aereo3"
-        "aereo5"
-        "aereo6";
-    }
-    .aereo h2{
-        font-size: 4em;
-        margin-top: 7%;
-       text-align: center;
-    }
-    .lista-aereo{
-        margin-right: 10%;
-        margin-left: 10%;
-    }
-    .lista-aereo li{
-        font-size: 1em;
-        text-align: justify;
-      
-        padding: 5%;
-        
-    }
-    .aereo img{
-        width: 60%;
-        grid-row: 3/5;
-        margin-right: 10%;
-        margin-left: 20%;
-    }
-    .contacto-aereo{
-    text-align: center;
-    width: 50%;
-    height: 35%;
+.container-servicio h1{
+font-size: 3em;
+text-align: center;
+}
+.container-servicio p{
+font-size: 1em;
+}
+.azul-servicio{
+height: 10em;
+overflow: hidden;
+width: 100%;
+max-width: 100%;
+}
+.azul-servicio img{
+width: 20%;
+box-shadow:0px 0px 10px #060036;
+}
+/*EXPO INMPOR*/
+.container-servicio-dos{
+height: 80em;
+overflow: hidden;
+width: 100%;
+max-width: 100%;
+flex-direction: column;
+justify-content: space-evenly;
+}
+.importacion-servicios{
+width: 90%;
+justify-content: center;
+align-items: center;
+height: 24em;
+}
+.importacion-servicios h2{
+font-size: 3em;
+}
+.importacion-servicios p{
+font-size: 1.4em;
+}
+.importacion-servicios li{
+margin-left: 5%;
+font-size: 0.9em;
+}
+.exportacion-servicios{
+width: 90%;
+justify-content: center;
+align-items: center;
+height: 24em;
+}
+.exportacion-servicios h2{
+font-size: 3em;
+}
+.exportacion-servicios p{
+font-size: 1.4em;
+}
+.exportacion-servicios li{
+margin-left: 5%;
+font-size: 0.9em;
+}
+/*AEREO*/
+.aereo{
+height: 80em;
+grid-template-columns: 1fr;
+grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+grid-template-areas: 
+"aereo2"
+"aereo4"
+"aereo1"
+"aereo3"
+"aereo5"
+"aereo6";
+}
+.aereo h2{
+font-size: 4em;
+margin-top: 7%;
+text-align: center;
+}
+.lista-aereo{
+margin-right: 10%;
+margin-left: 10%;
+}
+.lista-aereo li{
+font-size: 1em;
+text-align: justify;
+
+padding: 5%;
+
+}
+.aereo img{
+width: 60%;
+grid-row: 3/5;
+margin-right: 10%;
+margin-left: 20%;
+}
+.contacto-aereo{
+text-align: center;
+width: 50%;
+height: 35%;
+margin-top: 0%;
+}
+/*MARITIMO*/
+.maritimo{
+height: 70em;
+grid-template-columns: 1fr;
+grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+grid-template-areas:
+"maritimo1"
+"maritimo3"
+"maritimo2"
+"maritimo4"
+"maritimo6"
+"maritimo5";
+}
+.maritimo h2{
+font-size: 3em;
+margin-top: 7%;
+text-align: center;
+}
+.maritimo img{
+grid-row: 3/5;
+height: 90%;
+}
+.lista-maritimo{
+margin-right: 10%;
+margin-left: 10%;
+}
+.lista-maritimo li{
+font-size: 1em;
+text-align: justify;
+padding: 5%;
+}
+.contacto-maritimo{
+text-align: center;
+width: 50%;
+height: 35%;
+margin-top: 0%;
+}
+/*TERRESTRE*/
+.terrestre{
+    height: 80em;
+grid-template-columns: 1fr;
+grid-template-rows: 1fr 0.1fr 1fr  1fr 1fr;
+grid-template-areas: 
+"terrestre2"
+"terrestre4"
+"terrestre3"
+"terrestre1"
+"terrestre5"
+"terrestre6";
+}
+.terrestre h2{
     margin-top: 0%;
-    }
-    }
-    
+    font-size: 2.8em;
+}
+.terrestre li{
+    font-size: 1em;
+text-align: justify;
+padding: 5%;
+}
+.terrestre img{
+    grid-row: 3/5;
+
+margin-top: 50%;
+width: 80%;
+height: 70;
+}
+}
