@@ -94,7 +94,7 @@ margin-left: 20%;
 .contenedor-vision{
 height: 90em;
 grid-template-columns: 1fr;
-grid-template-rows: 0.6fr 1fr 0.5fr;
+grid-template-rows: 0.28fr 0.4fr 0.5fr;
 grid-template-areas: 
 "vision1"
 "vision3"
@@ -113,5 +113,5 @@ margin-left: 10%
 .contenedor-vision img{
 grid-area: vision2;
 margin-left: 5%;
-margin-top: 3%;
+margin-top: 40%;
 }}

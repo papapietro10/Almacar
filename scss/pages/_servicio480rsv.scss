@@ -18,5 +18,85 @@
         width: 20%;
         box-shadow:0px 0px 10px #060036;
     }
+    .container-servicio-dos{
+        height: 80em;
+        overflow: hidden;
+        width: 100%;
+        max-width: 100%;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .importacion-servicios{
+        width: 90%;
+        justify-content: center;
+        align-items: center;
+        height: 24em;
+    }
+    .importacion-servicios h2{
+    font-size: 3em;
+    }
+    .importacion-servicios p{
+        font-size: 1.4em;
+    }
+    .importacion-servicios li{
+        margin-left: 5%;
+        font-size: 0.9em;
+    }
+    .exportacion-servicios{
+        width: 90%;
+        justify-content: center;
+        align-items: center;
+        height: 24em;
+    }
+    .exportacion-servicios h2{
+    font-size: 3em;
+    }
+    .exportacion-servicios p{
+        font-size: 1.4em;
+    }
+    .exportacion-servicios li{
+        margin-left: 5%;
+        font-size: 0.9em;
+    }
+    .aereo{
+       height: 80em;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas: 
+        "aereo2"
+        "aereo4"
+        "aereo1"
+        "aereo3"
+        "aereo5"
+        "aereo6";
+    }
+    .aereo h2{
+        font-size: 4em;
+        margin-top: 7%;
+       text-align: center;
+    }
+    .lista-aereo{
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+    .lista-aereo li{
+        font-size: 1em;
+        text-align: justify;
+      
+        padding: 5%;
+        
+    }
+    .aereo img{
+        width: 60%;
+        grid-row: 3/5;
+        margin-right: 10%;
+        margin-left: 20%;
+    }
+    .contacto-aereo{
+    text-align: center;
+    width: 50%;
+    height: 35%;
+    margin-top: 0%;
+    }
     }
     

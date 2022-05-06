@@ -53,34 +53,74 @@
     /*segunda parte servicio*/
     .container-servicio-dos{
     display: flex;
-    justify-content: space-evenly;
-    background-color: #0f007d;
+    background-color: #070038;
     height: 35em;
+    box-shadow:0px 0px 20px #1800D8;
+    } 
+    .importacion-servicios{
+    margin-left: 5%;
+    background-color: #0f007d;
+    width: 40%;
+    box-shadow:0px 0px 20px #1800D8;
     }
-    .container-servicio-dos h2{
+    .importacion-servicios h2{
     width: 100%;
     height: 1.3em;
     font-family:'Cormorant', serif; 
     color: #fff;
     font-size:5em;
-    display: flex;
-    align-items: flex-end;
     text-shadow: 5px 5px 5px #060036;
-    margin-top: 15% ;
-    }
-    .container-servicio-dos p{
+    margin-top: 10% ;
+   text-align: center;
+}
+.importacion-servicios p{
     font-family:'Cormorant', serif; 
     font-size: 2em;
-    
     text-shadow: 5px 5px 5px #060036;
+    text-align: center;
     }
-    .container-servicio-dos li{
+    .importacion-servicios li{
     font-family:'Cormorant', serif; 
     color: #fff;
     font-size: 1.1em;
     margin-top: 7%;
     text-shadow: 5px 5px 5px #060036;
+    margin-top: 5% ;
+    text-align: justify;
+    margin-left: 10%;
     }
+    .exportacion-servicios{
+        margin-left: 5%;
+        background-color: #0f007d;
+        width: 40%;
+        box-shadow:0px 0px 20px #1800D8;
+        }
+        .exportacion-servicios h2{
+        width: 100%;
+        height: 1.3em;
+        font-family:'Cormorant', serif; 
+        color: #fff;
+        font-size:5em;
+        text-shadow: 5px 5px 5px #060036;
+        margin-top: 10% ;
+       text-align: center;
+    }
+    .exportacion-servicios p{
+        font-family:'Cormorant', serif; 
+        font-size: 2em;
+        text-shadow: 5px 5px 5px #060036;
+        text-align: center;
+        }
+        .exportacion-servicios li{
+        font-family:'Cormorant', serif; 
+        color: #fff;
+        font-size: 1.1em;
+        margin-top: 7%;
+        text-shadow: 5px 5px 5px #060036;
+        margin-top: 5% ;
+        text-align: justify;
+        margin-left: 10%;
+        }
     /*Tercera parte servicio*/ 
     .container-servicio-tres{
     height: 100%;
@@ -95,7 +135,8 @@
     grid-template-areas: 
     "aereo1 aereo2"
     "aereo3 aereo4"
-    "aereo5 aero6"
+    "aereo5 aereo6";
+    
     }
     .aereo img{
     grid-area: aereo1;
@@ -124,12 +165,12 @@
     color: #1800D8;
     }
     .contacto-aereo{
-    grid-area: aero6;
+    grid-area: aereo6;
     width: 50%;
     height: 30%;
     margin-left: 25%;
     margin-top: 5%;
-    box-shadow: 0px 0px 8px #060036;
+    box-shadow: 0px 0px 8px #1800cd;
     }
     
     /*SERVICIO MARITIMO*/
@@ -182,7 +223,7 @@
     height: 20%;
     margin-left: 25%;
     margin-top: 10%;
-    box-shadow: 0px 0px 20px #1800D8;
+    box-shadow: 0px 0px 10px #000000;
     }
     
     /*SERVICIO TERRESTRE*/
@@ -243,7 +284,7 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-    /*background-color: #0f007d;*/
+    background-color: #0f007d;
     height: 40em;
     }
     .formulario-servicio form{
@@ -252,7 +293,7 @@
     border:  0.2em solid #0f007d;
     border-radius: 3%;
     box-shadow: 0px 0px 10px #c2c2ff;
-    background-color: #8c8c8c1e;
+    background-color: #fffbfb;
     }
     .titulo-form-servicio{
     display:flex;
@@ -301,6 +342,7 @@
     .enviar-form-servicio{
     width: 50%;
     margin-left: 10%;
+    box-shadow:0px 0px 3px #0f007d;
     }
     .imagen-formulario-servicio img{
     width: 85%;
