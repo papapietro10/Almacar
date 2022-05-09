@@ -1,16 +1,20 @@
 
-/*FOOTER*/
+/*FULL RESPONSIVE 480  PARA FOOTER*/
 @media (max-width: 480px){
 .footer-foo{
     flex-direction: column-reverse;
+    height: 20em;
     }
     .footer-foo h2{
     font-size: 1.4em;
     transition: 0.5s;
+    margin-top: 10%;
+   
     }
     .footer-foo p{
-    font-size: 1.4em;
+    font-size: 1em;
     transition: 0.5s;
+    text-align: center;
     }
     .footer-foo img{
     width: 20%;

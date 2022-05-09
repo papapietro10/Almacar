@@ -38,6 +38,8 @@
     /*Espacio del container*/
     .carousel{
     background-color: #0f007d;
+    height: 39em;
+    box-shadow: 0px 0px 10px #1800cd
     }
     /*Margen del container*/
     .carousel-item{
@@ -90,7 +92,7 @@
     margin-left: 10%;
     }
     .exportacion-servicios{
-        margin-left: 5%;
+        margin-left: 10%;
         background-color: #0f007d;
         width: 40%;
         box-shadow:0px 0px 20px #1800D8;
@@ -143,9 +145,9 @@
     grid-row: 1/6;
     width:90%;
     margin-left: 5%;
-    margin-top: 10%;
+    margin-top: 18%;
     border-radius: 3%;
-    box-shadow:0px 0px 10px #0f007d;
+    box-shadow:0px 0px 3px #0f007d;
     }
     .aereo h2{
     grid-area: aereo2;
@@ -163,6 +165,7 @@
     font-family:'Cormorant', serif; 
     font-size: 1.5em;
     color: #1800D8;
+    margin-bottom: 20%;
     }
     .contacto-aereo{
     grid-area: aereo6;
@@ -220,7 +223,7 @@
     .contacto-maritimo{
     grid-area: maritimo5;
     width: 50%;
-    height: 20%;
+    height: 15%;
     margin-left: 25%;
     margin-top: 10%;
     box-shadow: 0px 0px 10px #000000;
@@ -244,7 +247,7 @@
     width:90%;
     height: 50%;
     margin-left: 5%;
-    margin-top: 40%;
+    margin-top: 35%;
     border-radius: 3%;
     box-shadow:0px 0px 10px #0f007d;
     }
@@ -272,7 +275,7 @@
     .contacto-terrestre{
     grid-area: terrestre6;
     width: 50%;
-    height: 30%;
+    height: 24%;
     margin-left: 25%;
     margin-top: 5%;
     box-shadow: 0px 0px 8px #060036;
