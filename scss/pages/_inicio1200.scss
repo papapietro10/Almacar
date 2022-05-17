@@ -1,6 +1,7 @@
 @media(min-width: 1025px) and (max-width: 1200px){
 .titulo h1{
 letter-spacing: 0.3em;
+overflow: hidden;
 }  
 .subtitulo p{
 font-size: 1.1em;
@@ -10,6 +11,7 @@ text-align: center;
 width: 15%;
 }
 .barra-inicio{
+overflow: hidden;
 margin-bottom: 3%;
 margin-top: -1.6%;
 }

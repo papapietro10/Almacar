@@ -264,13 +264,15 @@ nav > a:hover {
 
 @media (min-width: 1025px) and (max-width: 1200px) {
   .titulo h1 {
-    letter-spacing: 0.3em; }
+    letter-spacing: 0.3em;
+    overflow: hidden; }
   .subtitulo p {
     font-size: 1.1em;
     text-align: center; }
   .azul-inicio img {
     width: 15%; }
   .barra-inicio {
+    overflow: hidden;
     margin-bottom: 3%;
     margin-top: -1.6%; }
   .titulo-form h2 {
@@ -281,7 +283,8 @@ nav > a:hover {
 
 @media (min-width: 780px) and (max-width: 1025px) {
   .titulo h1 {
-    letter-spacing: 0.3em; }
+    letter-spacing: 0.3em;
+    overflow: hidden; }
   .subtitulo p {
     font-size: 1.1em;
     text-align: center; }
@@ -590,6 +593,10 @@ nav > a:hover {
   margin-top: 10%;
   box-shadow: 0px 0px 10px #060036;
   border-radius: 2%; }
+
+@media (min-width: 1200px) and (max-width: 1900px) {
+  .azules-quienes {
+    margin-top: 5%; } }
 
 @media (min-width: 1025px) and (max-width: 1200px) {
   .titulo-logo-quienes {
@@ -1097,7 +1104,8 @@ nav > a:hover {
     grid-template-areas: "consul1" "consul2" "consul3" "consul4"; }
   .logo-asesoramiento {
     width: 30%;
-    margin-left: 35%; }
+    margin-left: 35%;
+    margin-top: 15%; }
   .experimentados-container h2 {
     font-size: 3.5em;
     text-align: center;
