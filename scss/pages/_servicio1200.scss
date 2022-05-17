@@ -1,0 +1,102 @@
+@media(min-width:1025px) and (max-width: 1200px){
+.container-servicio h1{
+font-size: 10em;
+}
+.container-servicio p{
+font-size: 3.8em;
+}
+.azul-servicio{
+height: 20em;
+overflow: hidden;
+width: 100%;
+max-width: 100%;
+}
+.azul-servicio img{
+width: 15%;
+}
+.carousel{
+height: 34em;
+}
+.container-servicio-dos{
+height: 35em;
+}
+.importacion-servicios h2{
+font-size: 3.5em;
+}
+.importacion-servicios p{
+font-size: 2em;
+}
+.importacion-servicios li{
+margin-left: 5%;
+font-size: 1.3em;
+margin-right: 10%;
+margin-left: 10%;
+}
+.exportacion-servicios h2{
+    font-size: 3.5em;
+}
+.exportacion-servicios p{
+    font-size: 2em;
+}
+.exportacion-servicios li{
+    margin-left: 5%;
+    font-size: 1.3em;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+/*AEREO*/
+.aereo {
+    height: 83em;
+}
+.aereo h2{
+font-size: 7em;
+}
+.lista-aereo{
+margin-right: 10%;
+margin-left: 10%;
+}
+.lista-aereo li{
+font-size: 1.4em;
+}
+.aereo img{
+height: 30em;
+margin-top: 50%;
+}
+.maritimo{
+height: 50em;
+}
+.maritimo h2{
+font-size: 5em;
+}
+.maritimo img{
+height: 20em;
+margin-top: 50%;
+}
+.lista-maritimo li{
+font-size: 1.3em;
+}
+.maritimo.contacto{
+width: 10%;
+}
+
+.terrestre {
+height: 58em;
+}
+.terrestre h2{
+font-size: 4em;
+}
+.terrestre img{
+    margin-top: 45%;
+}
+.lista-terrestre{
+margin-bottom: 65%;
+height: 4em;
+}
+.lista-terrestre li{
+font-size: 1.3em;
+}
+.terrestre-contacto{
+margin-top: 20%;
+}
+
+}

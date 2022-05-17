@@ -70,11 +70,13 @@
     .imagen-formulario-contacto h1{
         color: #fff;
         font-family:'Cormorant', serif;
-       margin-left: 12%;
+       margin-left: 35%;
        font-size: 4em;
        text-shadow: 0px 0px 4px black;
     }
     .imagen-formulario-contacto iframe{
         margin-left: 10%;
         border-radius: 5%;
+        border:  0.2em solid #0f007d;
+        box-shadow: 0px 2px 10px #c2c2ff;
     }

@@ -169,10 +169,9 @@
     }
     .contacto-aereo{
     grid-area: aereo6;
-    width: 50%;
-    height: 30%;
+    width: 40%;
+    height: 40%;
     margin-left: 25%;
-    margin-top: 5%;
     box-shadow: 0px 0px 8px #1800cd;
     }
     
@@ -218,15 +217,14 @@
     font-size: 1.5em;
     color: #fff;
     margin-left: 15%;
-    margin-top: 5%;
+    margin-top: 8%;
     }
     .contacto-maritimo{
-    grid-area: maritimo5;
-    width: 50%;
-    height: 15%;
-    margin-left: 25%;
-    margin-top: 10%;
-    box-shadow: 0px 0px 10px #000000;
+        margin-top: 10%;
+        width: 40%;
+        height: 20%;
+        margin-left: 25%;
+        box-shadow: 0px 0px 8px #1800cd;
     }
     
     /*SERVICIO TERRESTRE*/
@@ -274,11 +272,11 @@
     }
     .contacto-terrestre{
     grid-area: terrestre6;
-    width: 50%;
-    height: 24%;
+    grid-area: aereo6;
+    width: 40%;
+    height: 30%;
     margin-left: 25%;
-    margin-top: 5%;
-    box-shadow: 0px 0px 8px #060036;
+    box-shadow: 0px 0px 8px #1800cd;
     }
     
     /* FORMULARIO */
