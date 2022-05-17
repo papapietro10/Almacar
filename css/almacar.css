@@ -1825,14 +1825,21 @@ nav > a:hover {
     margin-top: 10%; }
   /*MARITIMO*/
   .maritimo {
+    overflow: hidden;
+    width: 100%;
+    max-width: 100%;
     height: 80em;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr 5em 0fr 1.5fr;
     grid-template-areas: "maritimo1" "maritimo3" "maritimo2" "maritimo4" "maritimo6" "maritimo5"; }
+  .maritimo h2 {
+    font-size: 2.7em;
+    margin-right: 3%; }
   .maritimo img {
     grid-row: 3/6;
     height: 90%;
-    margin-top: 20%; }
+    width: 80%;
+    margin-left: 10%; }
   .lista-maritimo {
     margin-right: 10%;
     margin-left: 10%; }
@@ -1843,8 +1850,9 @@ nav > a:hover {
   .contacto-maritimo {
     text-align: center;
     width: 50%;
-    height: 18%;
+    height: 15%;
     margin-top: 25%;
+    margin-left: 27%;
     box-shadow: 0px 0px 10px #000000;
     grid-area: maritimo5; }
   /*TERRESTRE*/
@@ -1874,9 +1882,9 @@ nav > a:hover {
     margin-top: 15%; }
   .contacto-terrestre {
     text-align: center;
-    width: 100%;
+    width: 50%;
     height: 50%;
-    margin-top: 1%; }
+    margin-top: 10%; }
   /*FORMULARIO SERVICIO */
   .formulario-servicio {
     flex-wrap: wrap;
