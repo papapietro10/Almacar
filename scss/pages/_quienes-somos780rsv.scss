@@ -1,6 +1,10 @@
 @media(min-width:480px) and (max-width: 780px){
 .titulo-logo-quienes{
 width: 45em;
+flex-wrap: wrap;
+overflow: hidden;
+width: 100%;
+max-width: 100%;
 }
 .titulo-logo-quienes img{
 width: 40%;

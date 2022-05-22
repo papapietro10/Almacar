@@ -1,33 +1,31 @@
-@media (max-width: 480px){
+@media (min-width:1200px) and (max-width: 1300px){
 .container-contacto{
-height: 90em;
+height: 100em;
 }
 .formulario-contacto{
 flex-wrap: wrap;
 height: 80em;
 overflow: hidden;
-width: 100%;
+width: 85%;
 max-width: 100%;
 }
 .imagen-formulario-contacto iframe{
-width: 100%;
-margin-left: 0%;
+width: 150%;
 }
-.titulo-form-contacto h2{
-margin-right: 0%;
-}
+
 .imagen-formulario-contacto h1{
 font-size: 4em;
 position: relative;
-right: 25%;
+left: 10%;
 }
 .formulario-contacto form{
-width: 80%;
+width: 90%;
 margin-right: 15%;
 border:  0.2em solid #0f007d;
 border-radius: 3%;
 box-shadow: 0px 0px 10px #c2c2ff;
 background-color: #ffffff;
-margin-left: 15%;
+position: relative;
+left: 10%;
 }
 }

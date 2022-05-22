@@ -1,13 +1,13 @@
 
 *{
-    margin: 0;
-    padding: 0;
-    
-    }
+margin: 0;
+padding: 0;
+}
 @import "pages/nav";
 @import "pages/nav1200";
 @import "pages/nav1025";
 @import "pages/nav780rsv";
+@import "pages/nav600";
 @import "pages/nav480rsv";
 @import"pages/footer";
 @import"pages/footer1200";
@@ -15,22 +15,25 @@
 @import"pages/footer780srv";
 @import"pages/footer480srv";
 @import "pages/inicio";
+@import "pages/inicio1780";
 @import "pages/inicio1200";
 @import "pages/inicio1025rsv";
 @import "pages/inicio780rsv";
 @import "pages/inicio480rsv";
 @import "pages/quienes-somos";
-@import "pages/quienes-somos1500";
+@import "pages/quienes-somos1780";
 @import "pages/quienes-somos1200";
 @import "pages/quienes-somos1025";
 @import "pages/quienes-somos780rsv";
 @import "pages/quienes-somos480rsv";
 @import "pages/asesoramiento";
+@import "pages/asesoramiento1780";
 @import "pages/asesoramiento1200";
 @import "pages/asesoramiento1025";
 @import "pages/asesoramiento780";
 @import "pages/asesoramiento480";
 @import "pages/servicio";
+@import "pages/servicio1780";
 @import "pages/servicio1200";
 @import "pages/servicio1025";
 @import "pages/servicio780";

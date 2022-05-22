@@ -1,353 +1,352 @@
 /*----------------- NUESTRO SERVICIO----------------------*/
 
 .container-servicio{
-    display: flex;
-    flex-direction: column;
-    }
-    .container-servicio h1{
-    font-family:'Cormorant', serif; 
-    color: #1800D8;
-    font-size: 7em;
-    height: 2em;
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-    }
-    .container-servicio p{
-    font-family:'Cormorant', serif; 
-    color: #0f007d;
-    font-size: 2em;
-    height: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    }
-    /*AZULES SERVICIO*/
-    .azul-servicio{
-    width: 100%;
-    height: 20em;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    }
-    .azul-servicio  img{
-    width: 10em;
-    border-radius: 100%;
-    box-shadow:0px 0px 30px #0f007d;
-    }
-    /*Espacio del container*/
-    .carousel{
-    background-color: #0f007d;
-    height: 39em;
-    box-shadow: 0px 0px 10px #1800cd
-    }
-    /*Margen del container*/
-    .carousel-item{
-    margin-left: 24%;
-    margin-top: 5%;
-    }
-    /*Edicion de la imahgens*/
-    .carru{
-    box-shadow:1px 0px 50px #1800D8;
-    border-radius: 2%;
-    }
-    
-    /*segunda parte servicio*/
-    .container-servicio-dos{
-    display: flex;
-    background-color: #070038;
-    height: 35em;
-    box-shadow:0px 0px 20px #1800D8;
-    } 
-    .importacion-servicios{
-    margin-left: 5%;
-    background-color: #0f007d;
-    width: 40%;
-    box-shadow:0px 0px 20px #1800D8;
-    }
-    .importacion-servicios h2{
-    width: 100%;
-    height: 1.3em;
-    font-family:'Cormorant', serif; 
-    color: #fff;
-    font-size:5em;
-    text-shadow: 5px 5px 5px #060036;
-    margin-top: 10% ;
-   text-align: center;
+display: flex;
+flex-direction: column;
+}
+.container-servicio h1{
+font-family:'Cormorant', serif; 
+color: #1800D8;
+font-size: 7em;
+height: 2em;
+display: flex;
+align-items: flex-end;
+justify-content: center;
+}
+.container-servicio p{
+font-family:'Cormorant', serif; 
+color: #0f007d;
+font-size: 2em;
+height: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+/*AZULES SERVICIO*/
+.azul-servicio{
+width: 100%;
+height: 20em;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+}
+.azul-servicio  img{
+width: 10em;
+border-radius: 100%;
+box-shadow:0px 0px 30px #0f007d;
+}
+/*Espacio del container*/
+.carousel{
+background-color: #0f007d;
+height: 39em;
+box-shadow: 0px 0px 10px #1800cd
+}
+/*Margen del container*/
+.carousel-item{
+margin-left: 24%;
+margin-top: 5%;
+}
+/*Edicion de la imahgens*/
+.carru{
+box-shadow:1px 0px 50px #1800D8;
+border-radius: 2%;
+}
+
+/*segunda parte servicio*/
+.container-servicio-dos{
+display: flex;
+background-color: #070038;
+height: 35em;
+box-shadow:0px 0px 20px #1800D8;
+} 
+.importacion-servicios{
+margin-left: 5%;
+background-color: #0f007d;
+width: 40%;
+box-shadow:0px 0px 20px #1800D8;
+}
+.importacion-servicios h2{
+width: 100%;
+height: 1.3em;
+font-family:'Cormorant', serif; 
+color: #fff;
+font-size:5em;
+text-shadow: 5px 5px 5px #060036;
+margin-top: 10% ;
+text-align: center;
 }
 .importacion-servicios p{
-    font-family:'Cormorant', serif; 
-    font-size: 2em;
-    text-shadow: 5px 5px 5px #060036;
-    text-align: center;
-    }
-    .importacion-servicios li{
-    font-family:'Cormorant', serif; 
-    color: #fff;
-    font-size: 1.1em;
-    margin-top: 7%;
-    text-shadow: 5px 5px 5px #060036;
-    margin-top: 5% ;
-    text-align: justify;
-    margin-left: 10%;
-    }
-    .exportacion-servicios{
-        margin-left: 10%;
-        background-color: #0f007d;
-        width: 40%;
-        box-shadow:0px 0px 20px #1800D8;
-        }
-        .exportacion-servicios h2{
-        width: 100%;
-        height: 1.3em;
-        font-family:'Cormorant', serif; 
-        color: #fff;
-        font-size:5em;
-        text-shadow: 5px 5px 5px #060036;
-        margin-top: 10% ;
-       text-align: center;
-    }
-    .exportacion-servicios p{
-        font-family:'Cormorant', serif; 
-        font-size: 2em;
-        text-shadow: 5px 5px 5px #060036;
-        text-align: center;
-        }
-        .exportacion-servicios li{
-        font-family:'Cormorant', serif; 
-        color: #fff;
-        font-size: 1.1em;
-        margin-top: 7%;
-        text-shadow: 5px 5px 5px #060036;
-        margin-top: 5% ;
-        text-align: justify;
-        margin-left: 10%;
-        }
-    /*Tercera parte servicio*/ 
-    .container-servicio-tres{
-    height: 100%;
-    }
-    /*SERVICIO AEREO*/
-    .aereo{
-    width: 100%;
-    display: grid;
-    height: 50em;
-    grid-template-columns: 0.8fr 1fr;
-    grid-template-rows: 1.9fr 1.9fr 1fr ;
-    grid-template-areas: 
-    "aereo1 aereo2"
-    "aereo3 aereo4"
-    "aereo5 aereo6";
-    
-    }
-    .aereo img{
-    grid-area: aereo1;
-    grid-row: 1/6;
-    width:90%;
-    margin-left: 5%;
-    margin-top: 18%;
-    border-radius: 3%;
-    box-shadow:0px 0px 3px #0f007d;
-    }
-    .aereo h2{
-    grid-area: aereo2;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 6em;
-    font-family:'Cormorant', serif; 
-    color: #1800D8;
-    letter-spacing: 0.3em;
-    }
-    .lista-aereo{
-    grid-area:aereo4 ;
-    margin-left: 5%;
-    font-family:'Cormorant', serif; 
-    font-size: 1.5em;
-    color: #1800D8;
-    margin-bottom: 20%;
-    }
-    .contacto-aereo{
-    grid-area: aereo6;
-    width: 40%;
-    height: 40%;
-    margin-left: 25%;
-    box-shadow: 0px 0px 8px #1800cd;
-    }
-    
-    /*SERVICIO MARITIMO*/
-    
-    .maritimo{
-    background-color: #0f007d;
-    width: 100%;
-    height: 50em;
-    display: grid;
-    grid-template-columns:  1fr 0.8fr;
-    grid-template-rows: 1.9fr 1.9fr 1.9fr ;
-    grid-template-areas: 
-    "maritimo1 maritimo2"
-    "maritimo3 maritimo4"
-    "maritimo5 maritimo6"
-    }
-    .maritimo h2{
-    grid-area: maritimo1;
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-    font-size: 5em;
-    font-family:'Cormorant', serif; 
-    color: #fff;
-    letter-spacing: 0.3em;
-    margin-left: 10%;
-    margin-bottom: 5%;
-    }
-    .maritimo img{
-    grid-area: maritimo2;
-    width: 80%;
-    height: 35em;
-    grid-row: 1/6;
-    border-radius: 3%;
-    box-shadow:0px 0px 50px #1800D8;
-    margin-left: 10%;
-    margin-top: 20%;
-    }
-    .lista-maritimo{
-    grid-area: maritimo3;
-    font-family:'Cormorant', serif; 
-    font-size: 1.5em;
-    color: #fff;
-    margin-left: 15%;
-    margin-top: 8%;
-    }
-    .contacto-maritimo{
-        margin-top: 10%;
-        width: 40%;
-        height: 20%;
-        margin-left: 25%;
-        box-shadow: 0px 0px 8px #1800cd;
-    }
-    
-    /*SERVICIO TERRESTRE*/
-    .terrestre{
-    width: 100%;
-    display: grid;
-    height: 50em;
-    grid-template-columns: 0.8fr 1fr;
-    grid-template-rows: 1.9fr 1.9fr 1fr ;
-    grid-template-areas: 
-    "terrestre1 terrestre2"
-    "terrestre3 terrestre4"
-    "terrestre5 terrestre6"
-    }
-    .terrestre img{
-    grid-area: terrestre1;
-    grid-row: 1/6;
-    width:90%;
-    height: 50%;
-    margin-left: 5%;
-    margin-top: 35%;
-    border-radius: 3%;
-    box-shadow:0px 0px 10px #0f007d;
-    }
-    .terrestre h2{
-    grid-area: terrestre2;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 5em;
-    font-family:'Cormorant', serif; 
-    color: #1800D8;
-    letter-spacing: 0.3em;
-    margin-top: 10%;
-    }
-    .lista-terrestre{
-    grid-area: terrestre4 ;
-    margin-left: 5%;
-    font-family:'Cormorant', serif; 
-    font-size: 1.5em;
-    color: #1800D8;
-    margin-right: 7%;
-    margin-top: 5%;
-    
-    }
-    .contacto-terrestre{
-    grid-area: terrestre6;
-    grid-area: aereo6;
-    width: 40%;
-    height: 30%;
-    margin-left: 25%;
-    box-shadow: 0px 0px 8px #1800cd;
-    }
-    
-    /* FORMULARIO */
-    .formulario-servicio{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    background-color: #0f007d;
-    height: 40em;
-    }
-    .formulario-servicio form{
-    width: 150%;
-    margin-right: 6%;
-    border:  0.2em solid #0f007d;
-    border-radius: 3%;
-    box-shadow: 0px 0px 10px #c2c2ff;
-    background-color: #fffbfb;
-    }
-    .titulo-form-servicio{
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    }
-    .titulo-form-servicio h2{
-    margin-top: 5%;
-    font-family:'Cormorant', serif; 
-    font-size: 4em;
-    color: #0f007d;
-    }
-    .titulo-form-servicio p{
-    font-size: 1.5em;
-    margin-top: 5%;
-    font-family:'Cormorant', serif;
-    color: #fff; 
-    background-color: #0f007d;
-    }
-    /* EMAILFORMULARIO*/
-    .ingrese-mail-servicio{
-    color: #0f007d;
-    font-family:'Cormorant', serif; 
-    font-size: 1.6em;
-    margin-left: 10%;
-    }
-    .ingrese_mail_servicio{
-    width: 50%;
-    margin-left: 10%;
-    box-shadow:0px 0px 3px #0f007d;
-    }
-    /*COMENTARIO FORMULARIO*/
-    .ingrese-comentario-servicio{
-    color: #0f007d;
-    font-family:'Cormorant', serif; 
-    font-size: 1.6em;
-    margin-left: 10%;
-    margin-top: 5%;
-    }
-    .ingrese_comentario_servicio{
-    width: 50%;
-    margin-left: 10%;
-    box-shadow:0px 0px 3px #0f007d;
-    }
-    /*BOTON ENVIAR*/
-    .enviar-form-servicio{
-    width: 50%;
-    margin-left: 10%;
-    box-shadow:0px 0px 3px #0f007d;
-    }
-    .imagen-formulario-servicio img{
-    width: 85%;
-    border-radius: 2%;
-    margin-left: 5%;
-    }
-    
+font-family:'Cormorant', serif; 
+font-size: 2em;
+text-shadow: 5px 5px 5px #060036;
+text-align: center;
+}
+.importacion-servicios li{
+font-family:'Cormorant', serif; 
+color: #fff;
+font-size: 1.1em;
+margin-top: 7%;
+text-shadow: 5px 5px 5px #060036;
+margin-top: 5% ;
+text-align: justify;
+margin-left: 10%;
+}
+.exportacion-servicios{
+margin-left: 10%;
+background-color: #0f007d;
+width: 40%;
+box-shadow:0px 0px 20px #1800D8;
+}
+.exportacion-servicios h2{
+width: 100%;
+height: 1.3em;
+font-family:'Cormorant', serif; 
+color: #fff;
+font-size:5em;
+text-shadow: 5px 5px 5px #060036;
+margin-top: 10% ;
+text-align: center;
+}
+.exportacion-servicios p{
+font-family:'Cormorant', serif; 
+font-size: 2em;
+text-shadow: 5px 5px 5px #060036;
+text-align: center;
+}
+.exportacion-servicios li{
+font-family:'Cormorant', serif; 
+color: #fff;
+font-size: 1.1em;
+margin-top: 7%;
+text-shadow: 5px 5px 5px #060036;
+margin-top: 5% ;
+text-align: justify;
+margin-left: 10%;
+}
+/*Tercera parte servicio*/ 
+.container-servicio-tres{
+height: 100%;
+}
+/*SERVICIO AEREO*/
+.aereo{
+width: 100%;
+display: grid;
+height: 50em;
+grid-template-columns: 0.8fr 1fr;
+grid-template-rows: 1.9fr 1.9fr 1fr ;
+grid-template-areas: 
+"aereo1 aereo2"
+"aereo3 aereo4"
+"aereo5 aereo6";
+
+}
+.aereo img{
+grid-area: aereo1;
+grid-row: 1/6;
+width:90%;
+margin-left: 5%;
+margin-top: 18%;
+border-radius: 3%;
+box-shadow:0px 0px 3px #0f007d;
+}
+.aereo h2{
+grid-area: aereo2;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 6em;
+font-family:'Cormorant', serif; 
+color: #1800D8;
+letter-spacing: 0.3em;
+}
+.lista-aereo{
+grid-area:aereo4 ;
+margin-left: 5%;
+font-family:'Cormorant', serif; 
+font-size: 1.5em;
+color: #1800D8;
+margin-bottom: 20%;
+}
+.contacto-aereo{
+grid-area: aereo6;
+width: 40%;
+height: 40%;
+margin-left: 25%;
+box-shadow: 0px 0px 8px #1800cd;
+}
+
+/*SERVICIO MARITIMO*/
+
+.maritimo{
+background-color: #0f007d;
+width: 100%;
+height: 50em;
+display: grid;
+grid-template-columns:  1fr 0.8fr;
+grid-template-rows: 1.9fr 1.9fr 1.9fr ;
+grid-template-areas: 
+"maritimo1 maritimo2"
+"maritimo3 maritimo4"
+"maritimo5 maritimo6"
+}
+.maritimo h2{
+grid-area: maritimo1;
+display: flex;
+align-items: flex-end;
+justify-content: center;
+font-size: 5em;
+font-family:'Cormorant', serif; 
+color: #fff;
+letter-spacing: 0.3em;
+margin-left: 10%;
+margin-bottom: 5%;
+}
+.maritimo img{
+grid-area: maritimo2;
+width: 80%;
+height: 35em;
+grid-row: 1/6;
+border-radius: 3%;
+box-shadow:0px 0px 50px #1800D8;
+margin-left: 10%;
+margin-top: 20%;
+}
+.lista-maritimo{
+grid-area: maritimo3;
+font-family:'Cormorant', serif; 
+font-size: 1.5em;
+color: #fff;
+margin-left: 15%;
+margin-top: 8%;
+}
+.contacto-maritimo{
+margin-top: 10%;
+width: 40%;
+height: 20%;
+margin-left: 25%;
+box-shadow: 0px 0px 8px #1800cd;
+}
+
+/*SERVICIO TERRESTRE*/
+.terrestre{
+width: 100%;
+display: grid;
+height: 50em;
+grid-template-columns: 0.8fr 1fr;
+grid-template-rows: 1.9fr 1.9fr 1fr ;
+grid-template-areas: 
+"terrestre1 terrestre2"
+"terrestre3 terrestre4"
+"terrestre5 terrestre6"
+}
+.terrestre img{
+grid-area: terrestre1;
+grid-row: 1/6;
+width:90%;
+height: 50%;
+margin-left: 5%;
+margin-top: 35%;
+border-radius: 3%;
+box-shadow:0px 0px 10px #0f007d;
+}
+.terrestre h2{
+grid-area: terrestre2;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 5em;
+font-family:'Cormorant', serif; 
+color: #1800D8;
+letter-spacing: 0.3em;
+margin-top: 10%;
+}
+.lista-terrestre{
+grid-area: terrestre4 ;
+margin-left: 5%;
+font-family:'Cormorant', serif; 
+font-size: 1.5em;
+color: #1800D8;
+margin-right: 7%;
+margin-top: 5%;
+
+}
+.contacto-terrestre{
+grid-area: terrestre6;
+grid-area: aereo6;
+width: 40%;
+height: 30%;
+margin-left: 25%;
+box-shadow: 0px 0px 8px #1800cd;
+}
+
+/* FORMULARIO */
+.formulario-servicio{
+display: flex;
+align-items: center;
+justify-content: center;
+width: 100%;
+background-color: #0f007d;
+height: 40em;
+}
+.formulario-servicio form{
+width: 150%;
+margin-right: 6%;
+border:  0.2em solid #0f007d;
+border-radius: 3%;
+box-shadow: 0px 0px 10px #c2c2ff;
+background-color: #fffbfb;
+}
+.titulo-form-servicio{
+display:flex;
+flex-direction: column;
+align-items: center;
+}
+.titulo-form-servicio h2{
+margin-top: 5%;
+font-family:'Cormorant', serif; 
+font-size: 4em;
+color: #0f007d;
+}
+.titulo-form-servicio p{
+font-size: 1.5em;
+margin-top: 5%;
+font-family:'Cormorant', serif;
+color: #fff; 
+background-color: #0f007d;
+}
+/* EMAILFORMULARIO*/
+.ingrese-mail-servicio{
+color: #0f007d;
+font-family:'Cormorant', serif; 
+font-size: 1.6em;
+margin-left: 10%;
+}
+.ingrese_mail_servicio{
+width: 50%;
+margin-left: 10%;
+box-shadow:0px 0px 3px #0f007d;
+}
+/*COMENTARIO FORMULARIO*/
+.ingrese-comentario-servicio{
+color: #0f007d;
+font-family:'Cormorant', serif; 
+font-size: 1.6em;
+margin-left: 10%;
+margin-top: 5%;
+}
+.ingrese_comentario_servicio{
+width: 50%;
+margin-left: 10%;
+box-shadow:0px 0px 3px #0f007d;
+}
+/*BOTON ENVIAR*/
+.enviar-form-servicio{
+width: 50%;
+margin-left: 10%;
+box-shadow:0px 0px 3px #0f007d;
+}
+.imagen-formulario-servicio img{
+width: 85%;
+border-radius: 2%;
+margin-left: 5%;
+}
