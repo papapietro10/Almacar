@@ -63,17 +63,18 @@
                 <div class="imagen-formulario"> 
                     <img src="image/formulario.png">
                 </div> 
-                <form class="form-inicio">
+                <form action="form.php" method="POST" class="form-inicio">
                     <div class="titulo-form">
                         <h2>¡Contactanos!</h2>
                         <P>Nuestros agentes se comunicaran a la brevedad</P>
                     </div>
-                    <div class="mb-3">
+                    <label for="nombre" class="ingrese-nombre-inicio">Nombre</label>
+                    <input class="form-control ingrese_nombre_inicio" id="name" name="name" type="text" placeholder="Nombre">
                     <label for="exampleInputEmail1" class="form-label ingrese-mail-inicio">Email</label>
-                    <input type="email" class="form-control ingrese_mail_inicio" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <input type="email" class="form-control ingrese_mail_inicio" id="exampleInputEmail1 email" name="email" aria-describedby="emailHelp" placeholder="Email">
                     <div class="mb-3">
-                        <label for="exampleFormControlTextarea1" class="form-label ingrese-comentario-inicio">Ingrese su consulta </label>
-                        <textarea class="form-control ingrese_comentario_inicio" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        <label for="exampleFormControlTextarea1 textarea" class="form-label ingrese-comentario-inicio">Ingrese su consulta </label>
+                        <textarea class="form-control ingrese_comentario_inicio" id="exampleFormControlTextarea1 textarea" name="textarea" rows="3" placeholder="Ingrese su consulta"></textarea>
                       </div>
                     <button type="submit" class="btn btn-primary enviar-form-inicio">Enviar</button>
                 </form>

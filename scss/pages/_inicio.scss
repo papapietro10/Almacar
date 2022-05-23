@@ -65,6 +65,7 @@ height: 35em;
 }
 .formulario-inicio form{
 width: 150%;
+height: 40em;
 margin-right: 6%;
 border:  0.2em solid #0f007d;
 border-radius: 3%;
@@ -89,6 +90,18 @@ font-family:'Cormorant', serif;
 color: #fff; 
 background-color: #0f007d;
 }
+/* NOMBRE FORMULARIO*/
+.ingrese-nombre-inicio{
+color: #0f007d;
+font-family:'Cormorant', serif; 
+font-size: 1.6em;
+margin-left: 10%;
+}
+.ingrese_nombre_inicio{
+    width: 20%;
+    margin-left: 10%;
+    box-shadow:0px 0px 3px #0f007d;
+}
 /* EMAILFORMULARIO*/
 .ingrese-mail-inicio{
 color: #0f007d;
@@ -97,7 +110,7 @@ font-size: 1.6em;
 margin-left: 10%;
 }
 .ingrese_mail_inicio{
-width: 50%;
+width: 40%;
 margin-left: 10%;
 box-shadow:0px 0px 3px #0f007d;
 }
